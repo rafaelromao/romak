@@ -60,3 +60,7 @@ ZX = (, JÇ = _, QuK = #, XW = ), ÇV = ?
 
 ÃÁÉ = ção, ÂÔÊ = ções
 ```
+
+## Performance Analysis
+
+A simple performance analysis for the Romak layout can be found [here](analysis.md).
