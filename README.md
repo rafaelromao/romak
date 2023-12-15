@@ -64,3 +64,7 @@ ZX = (, JÇ = _, QuK = #, XW = ), ÇV = ?
 ## Performance Analysis
 
 A simple performance analysis for the Romak layout can be found [here](analysis.md).
+
+## Use Case
+
+If you want to see this layout in use, check my [Keyboards](https://github.com/rafaelromao/keyboards) repository.
