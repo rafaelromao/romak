@@ -16,7 +16,7 @@ This is a variation of Romak that can be used by anyone with a 34 keys columnar 
 
 ## Romak 24
 
-This is the default Romak layout, designed for the uncommon format 1333+2, in which there is no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alpha. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
+This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alpha. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
 
 Alpha 1 layer:
 
