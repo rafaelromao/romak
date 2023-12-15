@@ -39,7 +39,7 @@ Alpha 2 Layer:
      Q  Qu K          À  Ó  Ú
   Y  Z  X  W          Ã  Á  É  Í
      J  Ç  V          Â  Ô  Ê
-           '  _  _  _
+           '  Sp   A2 SF
 ```
 
 ## Combos for alphas and common symbols and n-grams:
