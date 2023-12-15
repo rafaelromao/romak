@@ -24,6 +24,7 @@ Romak has 2 alpha layers, with an oneshot key used to quickly alternate between 
 Heatmaps show that Romak puts more load on middle and ring fingers and less load on index and pinky fingers, when compared to Colemak-DH.
 <p float="left">
   <img src="img/heat_romak.png" width="450" />
+
   <img src="img/heat_coldh.png" width="450" /> 
 </p>
 
@@ -35,7 +36,7 @@ In Romak, fingers in the left hand will take less load than the equivalent finge
 ### Colemak mod-DH analysis tool
 The [Colemak mod-DH analysis tool](https://colemakmods.github.io/mod-dh/analyze.html) was also used to compare Romak against Colemak-DH.
 - English text corpus only.
-- Consider the 34 key version of Romak, with q, x, k and y in the base layer.
+- Consider the 34 key version of Romak.
 
 <p float="left">
   <img src="img/sfbs_en_romak.png" width="450" />
@@ -45,7 +46,7 @@ The [Colemak mod-DH analysis tool](https://colemakmods.github.io/mod-dh/analyze.
 ### Keysolve
 The [Keysolve analyzer](https://clemenpine.github.io/keysolve-web/) was also used to compare Romak against Colemak-DH.
 - English text corpus only.
-- Consider the 34 key version of Romak, with q, x, k and y in the base layer.
+- Consider the 34 key version of Romak.
 
 <p float="left">
   <img src="img/keysolve-romak.png" width="450" />
