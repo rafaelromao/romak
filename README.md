@@ -1,12 +1,10 @@
-# Romak
-
-## The Romak Keyboard Layout
+# The Romak Keyboard Layout
 
 **Romak** is a keyboard layout designed for Portuguese and English, with a goal of good hand alternation, reduced finger travel and single finger bigrams, and less use of the pinky and central columns.
 
 Romak is inspired mostly by [BEAKL](https://deskthority.net/wiki/BEAKL) and [Engram](https://engram.dev/), but resembles some modern keyboard layouts, like [Apt](https://github.com/Apsu/apt), [Sturdy](https://oxey.dev/sturdy/), [Semimak](https://semilin.github.io/blog/2021/semimak.html), [Canary](https://github.com/Apsu/Canary) and [Recuva](https://github.com/GalileoBlues/Recurva), but was not inspired by any of them (I did not know about them when Romak was designed).
 
-### Romak 34
+## Romak 34
 
 This is a variation of Romak that can be used by anyone with a 34 keys columnar staggered keyboard, in the common 3x5+2 format.
 
@@ -16,7 +14,7 @@ This is a variation of Romak that can be used by anyone with a 34 keys columnar 
   /  F  C  P  V    J  H  ,  .  ;
 ```
 
-### Romak 24
+## Romak 24
 
 This is the default Romak layout, designed for the uncommon format 1333+2, in which there is no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alpha. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
 
@@ -44,7 +42,7 @@ Alpha 2 Layer:
            '  _  _  _
 ```
 
-### Combos for alphas and common symbols and n-grams:
+## Combos for alphas and common symbols and n-grams:
 
 
 Alpha 1 combos:
