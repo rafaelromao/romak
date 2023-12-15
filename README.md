@@ -47,7 +47,7 @@ Alpha 2 layer:
 
 Alpha 1 combos:
 ```
-DN = Q, MG = K, ST = W, CP = V,
+NS = Q, MG = K, ST = W, CP = V,
 
 LO = X, RA = Z, H = J, AE = Y
 ```
