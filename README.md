@@ -49,7 +49,7 @@ Alpha 1 combos:
 ```
 NS = Q, MG = K, ST = W, CP = V,
 
-LO = X, RA = Z, H = J, AE = Y
+LO = X, RA = Z, H, = J, AE = Y
 ```
 
 Alpha 2 combos:
