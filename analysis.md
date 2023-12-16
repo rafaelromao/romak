@@ -2,7 +2,7 @@
 
 ## Romak Performance Analysis
 
-**Romak** is a keyboard layout designed for Portuguese and English, with a goal of good hand alternation, reduced finger travel and single finger bigrams, and less use of the pinky and central columns.
+**Romak** is a keyboard layout built for Portuguese and English users, with a goal to enhance hand alternation, minimize finger movement, reduce single-finger bigrams, and decrease reliance on the pinky and central columns.
 
 ![img](img/romak.png)
 
@@ -15,17 +15,23 @@ Romak has 2 alpha layers, with an oneshot key used to quickly alternate between 
 - All layouts involved in the comparison have the same thumb configuration.
 - Symbols and numbers were excluded from the analysis for all considered layouts.
 - The files with this configuration can be found [here](analysis/).
-- With this configuration, Romak scores slightly better than the others.
+- With this configuration, Romak scores slightly better than most other layouts, losing only for Canary, which has a bad load distribution on pinkies.
 
 ![img](img/perf.png)
 
+When comparing using only English in the text corpus, Colemak-DH jumps to the top, but practically tied with Canary, Romak and Sturdy.
+![img](img/perf_en.png)
+
+When comparing using only Portuguese, Canary extends its leading margin, and Colemak-DH goes down to the 9th position.
+![img](img/perf_pt.png)
+
 ### Heatmaps
 
-Heatmaps show that Romak puts more load on middle and ring fingers and less load on index and pinky fingers, when compared to Colemak-DH.
-<p float="left">
-  <img src="img/heat_romak.png" width="450" />
+The heatmaps below also consider both Portuguese and English in the text corpus.
 
-  <img src="img/heat_coldh.png" width="450" /> 
+These heatmaps show that Romak puts more load on middle and ring fingers and less load on index and pinky fingers, when compared to Colemak-DH, and has a better effort distribution than most other layouts.
+<p float="left">
+  <img src="img/heatmaps.png" />
 </p>
 
 ### Finger Usage
@@ -49,6 +55,10 @@ The [Keysolve analyzer](https://clemenpine.github.io/keysolve-web/) was also use
 - Consider the 34 key version of Romak.
 
 <p float="left">
-  <img src="img/keysolve-romak.png" width="450" />
-  <img src="img/keysolve-coldh.png" width="450" />
+  <img src="img/keysolve-romak.png"/>
+  <img src="img/keysolve-romak2.png"/>
+</p>
+<p float="right">
+  <img src="img/keysolve-coldh.png"/>
+  <img src="img/keysolve-coldh2.png"/>
 </p>

@@ -63,7 +63,9 @@ ZX = (, JÇ = _, QuK = #, XW = ), ÇV = ?
 
 ## Performance Analysis
 
-A simple performance analysis for the Romak layout can be found [here](analysis.md).
+A simple performance analysis for the Romak layout can be found [here](analysis.md), but a summary can be seen in the image below, with Romak scoring among the bests for Portuguese and English text corpus.
+
+![img](img/perf.png)
 
 ## Use Case
 
