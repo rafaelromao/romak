@@ -15,14 +15,14 @@ Romak has 2 alpha layers, with an oneshot key used to quickly alternate between 
 - All layouts involved in the comparison have the same thumb configuration.
 - Symbols and numbers were excluded from the analysis for all considered layouts.
 - The files with this configuration can be found [here](analysis/).
-- With this configuration, Romak scores slightly better than most other layouts.
+- With this configuration, Romak scores second, slightly better than most other layouts.
 
 ![img](img/perf.png)
 
-When comparing using only English in the text corpus, Colemak-DH jumps to the top, but almost tied with Canary, Romak and Sturdy.
+When comparing using only English in the text corpus, Graphite jumps to the top, followed by Colemak-DH, Canary, Romak and Sturdy, these last ones almost tied.
 ![img](img/perf_en.png)
 
-When comparing using only Portuguese, Canary extends its leading margin, and Colemak-DH goes down to the 9th position.
+When comparing using only Portuguese, Canary extends its leading margin, and Colemak-DH goes down, among the last positions.
 ![img](img/perf_pt.png)
 
 ### Heatmaps
