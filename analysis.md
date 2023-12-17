@@ -35,7 +35,7 @@ These heatmaps show that Romak puts more load on middle and ring fingers and les
 </p>
 
 ### Finger Usage
-In Romak, fingers in the left hand will take less load than the equivalent fingers in the right hand.
+In Romak, most fingers in the left hand will take less load than the equivalent fingers in the right hand.
 
 ![img](img/fingers.png)
 
