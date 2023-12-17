@@ -7,7 +7,7 @@
 ![img](img/romak.png)
 
 ## KLA Next
-[KLA Next](https://klanext.keyboard-design.com/) was used to compare Romak with Colemak-DH and some other layouts, using the Universal Declaration of Human Rights as text corpus, combining [Portuguese and English](analysis/corpus.txt).
+[KLA Next](https://klanext.keyboard-design.com/) was used to compare Romak with Colemak-DH and some other layouts, using a text corpus generated using the most common words in work emails and work chat messages, for both [Portuguese and English](analysis/corpus.txt).
 ### General Performance
 
 Romak has 2 alpha layers, with an oneshot key used to quickly alternate between them. This is not supported by KLA Next, so some adjustments were necessary:
@@ -15,14 +15,14 @@ Romak has 2 alpha layers, with an oneshot key used to quickly alternate between 
 - All layouts involved in the comparison have the same thumb configuration.
 - Symbols and numbers were excluded from the analysis for all considered layouts.
 - The files with this configuration can be found [here](analysis/).
-- With this configuration, Romak scores second, slightly better than most other layouts.
+- With this configuration, Romak scores better than all other layouts.
 
 ![img](img/perf.png)
 
-When comparing using only English in the text corpus, Graphite jumps to the top, followed by Colemak-DH, Canary, Romak and Sturdy, these last ones almost tied.
+When comparing using only English in the text corpus, positions change, but Romak stays in the top.
 ![img](img/perf_en.png)
 
-When comparing using only Portuguese, Canary extends its leading margin, and Colemak-DH goes down, among the last positions.
+When comparing using only Portuguese, Graphite takes the lead, followed by Romak and Sturdy.
 ![img](img/perf_pt.png)
 
 ### Heatmaps
