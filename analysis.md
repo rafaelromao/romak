@@ -25,6 +25,9 @@ When comparing using only English in the text corpus, positions change, but Roma
 When comparing using only Portuguese, Graphite takes the lead, followed by Romak and Sturdy.
 ![img](img/perf_pt.png)
 
+Using the text corpus *Chained English Bigrams 7 (1MB)*, from KLA, Romak also scores better than the others.
+![img](img/perf_en_chained_bigrams7.png)
+
 ### Heatmaps
 
 The heatmaps below also consider both Portuguese and English in the text corpus.
