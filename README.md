@@ -42,7 +42,7 @@ Alpha 2 layer:
            '  Sp   A2 SF
 ```
 
-## Combos for alphas and common symbols and n-grams:
+## Combos for alphas, common symbols and n-grams:
 
 
 Alpha 1 combos:
