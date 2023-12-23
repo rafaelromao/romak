@@ -20,9 +20,9 @@ This is a variation of Romak that can be used with 30 keys, in the format 23332+
 In this variation, all alphas remain in the base layer, and common symbols like comma and dot are moved to combos, like HZ for comma and ZJ for dot.
 
 ```
-  Q  B  M  G  W    X  L  O  U  Y
-  D  N  S  T  V    K  R  A  E  I
-     F  C  P          H  Z  J  
+  Q  B  M  G  W    Z  L  O  U  Y
+  D  N  S  T  V    J  R  A  E  I
+     F  C  P          H  K  X  
 ```
 
 ## Romak 24
@@ -74,9 +74,12 @@ ZX = (, JÇ = _, QuK = #, XW = ), ÇV = ?
 
 ## Performance Analysis
 
-A simple performance analysis for the Romak layout can be found [here](analysis.md), but a summary can be seen in the image below, with Romak scoring among the bests for Portuguese and English text corpus.
+A quick comparison between these 3 variations of Romak and some popular modern layouts can be seen below. These tests included both Portuguese and English in the text corpus.
 
-![img](img/perf.png)
+![img](img/perf3romaks.png)
+![img](img/heatmaps3romaks.png)
+
+A more detailed performance analysis for the Romak 24 and other modern layouts can be found [here](analysis.md).
 
 ## Use Case
 
