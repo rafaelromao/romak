@@ -14,6 +14,17 @@ This is a variation of Romak that can be used by anyone with a 34 keys columnar 
   /  F  C  P  V    J  H  ,  .  ;
 ```
 
+## Romak 30
+
+This is a variation of Romak that can be used with 30 keys, in the format 23332+2, with boards like the Hummingbird and the Rommana.
+In this variation, all alphas remain in the base layer, and common symbols like comma and dot are moved to combos, like HZ for comma and ZJ for dot.
+
+```
+  Q  B  M  G  W    X  L  O  U  Y
+  D  N  S  T  V    K  R  A  E  I
+     F  C  P          H  Z  J  
+```
+
 ## Romak 24
 
 This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alpha. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
