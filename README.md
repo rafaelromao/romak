@@ -6,7 +6,7 @@ Romak is inspired mostly by [BEAKL](https://deskthority.net/wiki/BEAKL) and [Eng
 
 ## Romak 34
 
-This is a variation of Romak that can be used by anyone with a 34 keys columnar staggered keyboard, in the common 3x5+2 format.
+This is a variation of Romak that can be used by anyone with a 34 keys columnar staggered keyboard, in the common format 3x5+2.
 
 ```
   Q  B  M  G  K    X  L  O  U  Y
@@ -27,7 +27,7 @@ In this variation, all alphas remain in the base layer, and common symbols like 
 
 ## Romak 24
 
-This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alpha. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
+This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alphas. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
 
 Alpha 1 layer:
 
