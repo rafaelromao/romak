@@ -79,7 +79,7 @@ A quick comparison between these 3 variations of Romak and some popular modern l
 ![img](img/perf3romaks.png)
 ![img](img/heatmaps3romaks.png)
 
-A more detailed performance analysis for the Romak 24 and other modern layouts can be found [here](analysis.md).
+A more detailed performance analysis for the Romak 34 and other modern layouts can be found [here](analysis.md).
 
 ## Use Case
 

@@ -12,7 +12,7 @@
 ### Results
 
 Some adjustments were necessary to focus the comparison on the alphas only, but including dead keys for accented letters:
-- `'` and `"` were present in all layouts, so a single spare key was left, usually filled with `:` and `;`. These symbols were replaced by `~`, `^` and `\`` to give dead keys to all layouts. It will affect them differently, but was a fair way to include dead keys in all of them.
+- `'` and `"` were present in all layouts, so a single spare key was left, usually filled with `:` and `;`. These symbols were replaced by `~`, `^` and `` ` `` to give dead keys to all layouts. It will affect them differently, but was a fair way to include dead keys in all of them.
 - Space is placed on the opposite side as vowels, for all layouts, to improve hand balance.
 - Other than quotes, dead keys, comma and dot, all other symbols, and numbers, were excluded from the analysis, for all layouts.
 - The files with this configuration can be found [here](analysis/).
