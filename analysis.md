@@ -66,7 +66,7 @@ The [Colemak mod-DH analysis tool](https://colemakmods.github.io/mod-dh/analyze.
 </p>
 
 ## Oxey Playground
-[Oxey Playgrond](https://oxey.dev/playground/index.html) was also used to compare Romak against Colemak-DH.
+[Oxey Playground](https://oxey.dev/playground/index.html) was also used to compare Romak against Colemak-DH.
 - English text corpus only.
 - Consider the 34 key version of Romak.
 
