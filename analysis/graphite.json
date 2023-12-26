@@ -295,7 +295,7 @@
             "finger": 7,
             "id": 30,
             "shift": 89,
-            "altGr": 94,
+            "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -358,8 +358,8 @@
             "finger": 1,
             "id": 37,
             "shift": 81,
-            "altGr": 126,
-            "shiftAltGr": 96,
+            "altGr": -1,
+            "shiftAltGr": -1,
             "numpad": -1
         },
         {
@@ -451,11 +451,11 @@
             "numpad": -1
         },
         {
-            "primary": 231,
+            "primary": 126,
             "finger": 10,
             "id": 48,
-            "shift": 199,
-            "altGr": -1,
+            "shift": 94,
+            "altGr": 96,
             "shiftAltGr": -1,
             "numpad": -1
         },

@@ -15,7 +15,7 @@
         "false": -1
     },
     "keyboardType": "matrix",
-    "author": "Ian Douglas",
+    "author": "Dvorak",
     "authorUrl": "",
     "moreInfoUrl": "",
     "moreInfoText": "X1 ErgoLinear",
@@ -142,7 +142,7 @@
             "finger": 1,
             "id": 13,
             "shift": 34,
-            "altGr": 96,
+            "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -178,7 +178,7 @@
             "finger": 4,
             "id": 17,
             "shift": 89,
-            "altGr": 126,
+            "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -304,7 +304,7 @@
             "finger": 7,
             "id": 31,
             "shift": 72,
-            "altGr": 94,
+            "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -354,11 +354,11 @@
             "numpad": -1
         },
         {
-            "primary": 231,
+            "primary": 126,
             "finger": 1,
             "id": 37,
-            "shift": 199,
-            "altGr": -1,
+            "shift": 94,
+            "altGr": 96,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -519,7 +519,7 @@
             "numpad": -1
         },
         {
-            "primary": 32,
+            "primary": -18,
             "finger": 5,
             "id": 56,
             "shift": -1,
@@ -545,7 +545,7 @@
             "shiftAltGr": -1
         },
         {
-            "primary": -18,
+            "primary": 32,
             "finger": 6,
             "id": 59,
             "shift": -1,

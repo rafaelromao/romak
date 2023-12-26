@@ -15,7 +15,7 @@
         "false": -1
     },
     "keyboardType": "matrix",
-    "author": "Ian Douglas",
+    "author": "Haemimancer",
     "authorUrl": "",
     "moreInfoUrl": "",
     "moreInfoText": "X1 ErgoLinear",
@@ -205,7 +205,7 @@
             "finger": 8,
             "id": 20,
             "shift": 77,
-            "altGr": 94,
+            "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -285,7 +285,7 @@
             "primary": 46,
             "finger": 4,
             "id": 29,
-            "shift": 96,
+            "shift": -1,
             "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
@@ -363,11 +363,11 @@
             "numpad": -1
         },
         {
-            "primary": 231,
+            "primary": 126,
             "finger": 2,
             "id": 38,
-            "shift": 199,
-            "altGr": -1,
+            "shift": 94,
+            "altGr": 96,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -437,7 +437,7 @@
             "finger": 8,
             "id": 46,
             "shift": 76,
-            "altGr": 126,
+            "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -518,7 +518,7 @@
             "numpad": -1
         },
         {
-            "primary": 32,
+            "primary": -18,
             "finger": 5,
             "id": 56,
             "shift": -1,
@@ -543,7 +543,7 @@
             "shiftAltGr": -1
         },
         {
-            "primary": -18,
+            "primary": 32,
             "finger": 6,
             "id": 59,
             "shift": -1,
