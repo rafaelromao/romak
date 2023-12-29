@@ -16,7 +16,7 @@ This is a variation of Romak that can be used by anyone with a 34 keys columnar 
 
 ## Romak 30
 
-This is a variation of Romak that can be used with 30 keys, in the format 23332+2, with boards like the Hummingbird and Rommana.
+This is a variation of Romak that can be used with 30 keys, in the format 23332+2, with boards like the Hummingbird and Rommana. In this variation, dot and comma must go to combos or a layer.
 
 ```
   Q  B  M  G  W    Z  L  O  U  Y
