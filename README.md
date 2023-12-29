@@ -11,13 +11,12 @@ This is a variation of Romak that can be used by anyone with a 34 keys columnar 
 ```
   Q  B  M  G  K    X  L  O  U  Y
   D  N  S  T  W    Z  R  A  E  I
-  /  F  C  P  V    J  H  ,  .  ;
+  '  F  C  P  V    J  H  ,  .  ;
 ```
 
 ## Romak 30
 
 This is a variation of Romak that can be used with 30 keys, in the format 23332+2, with boards like the Hummingbird and Rommana.
-In this variation, all alphas remain in the base layer, and common symbols like comma and dot are moved to combos, like HK for comma and KX for dot.
 
 ```
   Q  B  M  G  W    Z  L  O  U  Y
@@ -27,14 +26,14 @@ In this variation, all alphas remain in the base layer, and common symbols like 
 
 ## Romak 24
 
-This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alphas. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
+This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place missing alphas and puntuation. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
 
 Alpha 1 layer:
 
 ```
      B  M  G          L  O  U   
   D  N  S  T          R  A  E  I 
-     F  C  P          H  ,  .   
+     F  C  P          H  K  X   
            Rp Sp   A2 SF
 ```
 ```
@@ -47,8 +46,8 @@ A2 = One Shot Alpha 2 layer
 Alpha 2 layer:
 
 ```
-     Q  Qu K          À  Ó  Ú
-  Y  Z  X  W          Ã  Á  É  Í
+     Q  Qu ,          .  Ó  Ú
+  Y  Z  À  W          Ã  Á  É  Í
      J  Ç  V          Â  Ô  Ê
            '  Sp   A2 SF
 ```
@@ -58,18 +57,33 @@ Alpha 2 layer:
 
 Alpha 1 combos:
 ```
-NS = Q, MG = K, ST = W, CP = V,
+MG = ,
+NS = Q
+ST = W
+CP = V
 
-LO = X, RA = Z, H, = J, AE = Y
+LO = .
+RA = Z
+H, = J
+AE = Y
 ```
 
 Alpha 2 combos:
 ```
-ZX = (, JÇ = _, QuK = #, XW = ), ÇV = ?
+ZÀ = (
+JÇ = _
+Qu, = #
+ÀW = )
+ÇV = ?
 
-ÀÓ = :, ÃÁ = -, ÂÔ = !, ÁÉ = ão, ÔÊ = õe,
+.Ó = :
+ÃÁ = -
+ÂÔ = !
+ÁÉ = ão
+ÔÊ = õe
 
-ÃÁÉ = ção, ÂÔÊ = ções
+ÃÁÉ = ção
+ÂÔÊ = ções
 ```
 
 ## Performance Analysis

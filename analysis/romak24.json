@@ -1,5 +1,5 @@
 {
-    "label": "Romak",
+    "label": "Romak 24",
     "fingerStart": {
         "1": 25,
         "2": 26,
@@ -151,8 +151,8 @@
             "finger": 2,
             "id": 14,
             "shift": 66,
-            "altGr": -1,
-            "shiftAltGr": -1,
+            "altGr": 224,
+            "shiftAltGr": 192,
             "numpad": -1
         },
         {
@@ -196,8 +196,8 @@
             "finger": 7,
             "id": 19,
             "shift": 76,
-            "altGr": 224,
-            "shiftAltGr": 192,
+            "altGr": 245,
+            "shiftAltGr": 213,
             "numpad": -1
         },
         {
