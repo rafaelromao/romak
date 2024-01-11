@@ -65,7 +65,7 @@ LO = X, RA = Z, H, = J, AE = Y
 
 Alpha 2 combos:
 ```
-ZX = (, JÇ = _, QuK = #, XW = ), ÇV = ?
+ZX = (, JÇ = _, QuK = ", XW = ), ÇV = ?
 
 ÀÓ = :, ÃÁ = -, ÂÔ = !, ÁÉ = ão, ÔÊ = õe,
 
