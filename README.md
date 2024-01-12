@@ -35,7 +35,7 @@ Alpha 1 layer:
      B  M  G          L  O  U   
   D  N  S  T          R  A  E  I 
      F  C  P          H  ,  .   
-           Rp Sp   A2 SF
+           Rp Sp   A2 Sf
 ```
 ```
 Rp = Repeat Last Key
@@ -50,7 +50,7 @@ Alpha 2 layer:
      Q  Qu K          À  Ó  Ú
   Y  Z  X  W          Ã  Á  É  Í
      J  Ç  V          Â  Ô  Ê
-           '  Sp   A2 SF
+           '  Sp   A2 Sf
 ```
 
 ## Combos for alphas, common symbols and n-grams:
