@@ -27,7 +27,7 @@ In this variation, all alphas remain in the base layer, and common symbols like 
 
 ## Romak 24
 
-This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alphas. Common accented letters, in Portuguese, are also available in this secondary alpha layer, along with some combos for common n-grams like `ão`, `õe`, `ção` and `ções`.
+This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alphas. Common accented letters, in Portuguese, are also available in this secondary alpha layer.
 
 Alpha 1 layer:
 
@@ -47,29 +47,38 @@ A2 = One Shot Alpha 2 layer
 Alpha 2 layer:
 
 ```
-     Q  Qu K          À  Ó  Ú
-  Y  Z  X  W          Ã  Á  É  Í
-     J  Ç  V          Â  Ô  Ê
+     Q  Qu K          Ô  Ó  Ú
+  Y  Z  X  W          À  Á  É  Í
+     J  Ç  V          ~  Â  Ê
            '  Sp   A2 Sf
 ```
 
 ## Combos for alphas, common symbols and n-grams:
 
-
 Alpha 1 combos:
 ```
-NS = Q, MG = K, ST = W, CP = V,
-
-LO = X, RA = Z, H, = J, AE = Y
+NS = Q
+MG = K
+ST = W
+CP = V
+LO = X
+RA = Z
+H, = J
+AE = Y
 ```
 
 Alpha 2 combos:
 ```
-ZX = (, JÇ = _, QuK = ", XW = ), ÇV = ?
-
-ÀÓ = :, ÃÁ = -, ÂÔ = !, ÁÉ = ão, ÔÊ = õe,
-
-ÃÁÉ = ção, ÂÔÊ = ções
+ZX = (
+JÇ = _
+QuK = "
+XW = '
+ÇV = ?
+ÀÓ = :
+ÃÁ = -
+ÂÔ = !
+ÁÉ = )
+ÂÊ = _
 ```
 
 ## Performance Analysis
