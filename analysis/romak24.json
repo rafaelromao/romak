@@ -1,5 +1,5 @@
 {
-    "label": "Romak",
+    "label": "Romak 24",
     "fingerStart": {
         "1": 25,
         "2": 26,
@@ -151,8 +151,8 @@
             "finger": 2,
             "id": 14,
             "shift": 66,
-            "altGr": -1,
-            "shiftAltGr": -1,
+            "altGr": 113,
+            "shiftAltGr": 81,
             "numpad": -1
         },
         {
@@ -160,8 +160,8 @@
             "finger": 3,
             "id": 15,
             "shift": 77,
-            "altGr": 113,
-            "shiftAltGr": 81,
+            "altGr": -1,
+            "shiftAltGr": -1,
             "numpad": -1
         },
         {
@@ -196,8 +196,8 @@
             "finger": 7,
             "id": 19,
             "shift": 76,
-            "altGr": 224,
-            "shiftAltGr": 192,
+            "altGr": 244,
+            "shiftAltGr": 212,
             "numpad": -1
         },
         {
@@ -304,8 +304,8 @@
             "finger": 7,
             "id": 31,
             "shift": 82,
-            "altGr": 227,
-            "shiftAltGr": 195,
+            "altGr": 224,
+            "shiftAltGr": 192,
             "numpad": -1
         },
         {
@@ -429,8 +429,8 @@
             "finger": 7,
             "id": 45,
             "shift": 72,
-            "altGr": 226,
-            "shiftAltGr": 194,
+            "altGr": 126,
+            "shiftAltGr": -1,
             "numpad": -1
         },
         {
@@ -438,8 +438,8 @@
             "finger": 8,
             "id": 46,
             "shift": -1,
-            "altGr": 244,
-            "shiftAltGr": 212,
+            "altGr": 226,
+            "shiftAltGr": 194,
             "numpad": -1
         },
         {
