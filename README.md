@@ -41,7 +41,7 @@ Alpha 1 layer:
 Rp = Repeat Last Key
 Sp = Space
 Sf = One Shot Shift
-A2 = One Shot Alpha 2 layer
+A2 = One Shot Alpha 2
 ```
 
 Alpha 2 layer:
@@ -50,7 +50,7 @@ Alpha 2 layer:
      Q  Qu K          Ô  Ó  Ú
   Y  Z  X  W          À  Á  É  Í
      J  Ç  V          ~  Â  Ê
-           '  Sp   A2 Sf
+           '  _    _  _
 ```
 
 ## Combos for alphas, common symbols and n-grams:
@@ -80,6 +80,67 @@ XW = '
 ÁÉ = )
 ÂÊ = _
 ```
+
+## Magic Romak
+
+This is a version of Romak 24 that uses a Magic Key to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
+
+### Smart Shift
+
+In this version, a new feature is introduced, the Smart Shift behavior. With this feature, the One Shot Shift key will not act as shift when typed mid word, but as something else instead. In this case, it can be either a Repeat Key or a Magic Key.
+
+This will allow the extisting Repeat Key to be merged within the existing One Shot Shift key, on the right side, which will allow for better hand alternation when used as Repeat Key, since the most repeatable alphas are placed on the left side.
+
+It will also free up the left thumb to accomodate another Smart Shift key, but in this case it will act as a Magic Key when tapped mid word. It will also allow for better hand alternation when used before letters placed in the right hand.
+
+Alpha 1 layer:
+
+```
+     B  M  G          L  O  U   
+  D  N  S  T          R  A  E  I 
+     F  C  P          H  ,  .   
+           *  Sp   A2 ®
+```
+```
+* = One Shot Shift / Magic Key
+Sp = Space
+® = One Shot Shift / Repeat Key
+A2 = One Shot Alpha 2
+```
+
+Alpha 2 layer:
+
+```
+     Q  Qu K          Ô  Ó  Ú
+  Y  Z  X  W          À  Á  É  Í
+     J  Ç  V          ~  Â  Ê
+           '  _    _  _
+```
+
+### Magic Key
+
+And this is how this Magic Key will behaves:
+
+| Combination  | Output  | Example | Reason |
+|---|---|---|---|
+| l*  | ll | follow | reduce SFBs
+| r*  | rr | carro | reduce SFBs
+| u*  | ue | blue | reduce SFBs
+| x*  | xc | exceed | reduce SFBs
+| d*  | dy | dye | reduce SFBs
+| e*  | ei | sei | avoid uncomfortable ring to pinky sequences 
+| n*  | nd | and | avoid uncomfortable ring to pinky sequences
+| no*  | no' | don't | smart apostrophe
+| pronoum*  | pronoum' | you're | smart apostrophe
+| i*  | backspace I' | I'm | smart apostrophe
+| m*  | backspace 's | Rafael's | smart apostrophe
+| j*  | já | já | reduce consecutive activation of Alpha 2 
+| í*  | ív | possível | reduce consecutive activation of Alpha 2 
+| á*  | áv | agradável | reduce consecutive activation of Alpha 2 
+| a* | backspace ã | não | reduce consecutive activation of Alpha 2 
+| o* | backspace õ | põe | reduce consecutive activation of Alpha 2 
+| ça* | backspace ã | maçã | reduce consecutive activation of Alpha 2 
+| ço* | backspace õ | ações | reduce consecutive activation of Alpha 2 
 
 ## Performance Analysis
 
