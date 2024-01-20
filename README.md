@@ -123,8 +123,6 @@ And this is how this Magic Key will behaves:
 
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
-| l*  | ll | follow | reduce SFBs
-| r*  | rr | carro | reduce SFBs
 | u*  | ue | blue | reduce SFBs
 | x*  | xc | exceed | reduce SFBs
 | d*  | dy | dye | reduce SFBs
@@ -140,7 +138,8 @@ And this is how this Magic Key will behaves:
 | a* | backspace ã | não | reduce consecutive activation of Alpha 2 
 | o* | backspace õ | põe | reduce consecutive activation of Alpha 2 
 | ça* | backspace ã | maçã | reduce consecutive activation of Alpha 2 
-| ço* | backspace õ | ações | reduce consecutive activation of Alpha 2 
+| ço* | backspace õ | ações | reduce consecutive activation of Alpha 2
+| anything else *  | repeat | follow | reduce SFBs 
 
 ## Performance Analysis
 
