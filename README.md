@@ -35,10 +35,10 @@ Alpha 1 layer:
      B  M  G          L  O  U   
   D  N  S  T          R  A  E  I 
      F  C  P          H  ,  .   
-           Rp Sp   A2 Sf
+           ®  Sp   A2 Sf
 ```
 ```
-Rp = Repeat Last Key
+® = Repeat Last Key
 Sp = Space
 Sf = One Shot Shift
 A2 = One Shot Alpha 2
