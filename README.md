@@ -117,9 +117,19 @@ A2 = One Shot Alpha 2
 
 Along with Enter, Tab, Esc and Navigation keys, Space will signal to the keyboard that a new word will be starting and clear the repeat key state. 300ms of inactivity will also clear this state. In both cases, One Shot Shift will be triggered instead when the Magic Key or Repeat Key is tapped.
 
-### Magic Key
+### Smart Shift / Repeat Key
 
-And this is how this Magic Key behaves:
+This is how the Smart Shift / Repeat Key behaves:
+
+| Combination  | Output | Reason |
+|---|---|---|
+| Space, Tab, Enter, Esc, Navigation * | One Shot Shift | new word
+| Inactivity * | One Shot Shift | inactivity 
+| anything else *  | repeat| reduce SFBs 
+
+### Smart Shift / Magic Key
+
+And this is how this Smart Shift / Magic Key behaves:
 
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
