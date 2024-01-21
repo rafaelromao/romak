@@ -119,7 +119,7 @@ And this is how this Magic Key behaves:
 
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
-| &blank;  | ignored |  | along with Enter, Tab, Esc and Navigation keys, & blank; signals that a new word will be started. 300ms of inactivity will also clear the last key to repeat. L
+| &blank;  | ignored |  | along with Enter, Tab, Esc and Navigation keys, &blank; signals that a new word will be started. 300ms of inactivity will also clear the last key to repeat. L
 | h*  | ignored |  | used to replace a char in my remapped VIM
 | o*  | ignored |  | used to enter a new line in VIM
 | a*  | ao | xiao | reduce SFBs
