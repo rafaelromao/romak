@@ -130,10 +130,10 @@ And this is how this Magic Key will behaves:
 | n*  | nd | and | avoid uncomfortable ring to pinky sequences
 | i*  | backspace I' | I'm | smart apostrophe
 | j*  | já | já | reduce consecutive activation of Alpha 2 
-| í*  | ív | possível | reduce consecutive activation of Alpha 2 
-| á*  | áv | agradável | reduce consecutive activation of Alpha 2 
-| a* | backspace ã | não | reduce consecutive activation of Alpha 2 
-| o* | backspace õ | põe | reduce consecutive activation of Alpha 2 
+| í*  | ív | possível | reduce activation of Alpha 2 
+| á*  | áv | agradável | reduce activation of Alpha 2 
+| a* | backspace ã | não | reduce activation of Alpha 2 
+| o* | backspace õ | põe | reduce activation of Alpha 2 
 | anything else *  | repeat | follow | reduce SFBs 
 
 ## Performance Analysis
