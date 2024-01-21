@@ -122,14 +122,17 @@ And this is how this Magic Key behaves:
 | u*  | ue | blue | reduce SFBs
 | x*  | xc | exceed | reduce SFBs
 | d*  | dy | dye | reduce SFBs
+| t*  | tw | two | reduce SFBs
+| k*  | kw | awkward | reduce SFBs
+| l*  | lh | coelho | reduce SFBs
+| r*  | rh | rhythm | reduce SFBs
 | e*  | ei | sei | avoid uncomfortable ring to pinky sequences 
 | n*  | nd | and | avoid uncomfortable ring to pinky sequences
 | i*  | backspace I' | I'm | smart apostrophe
 | j*  | já | já | reduce activation of Alpha 2 
 | í*  | ív | possível | reduce activation of Alpha 2 
 | á*  | áv | agradável | reduce activation of Alpha 2 
-| a* | backspace ão | não | reduce activation of Alpha 2 
-| o* | backspace õe | põe | reduce activation of Alpha 2 
+| ó*  | óv | imóvel | reduce activation of Alpha 2 
 | anything else *  | repeat | follow | reduce SFBs 
 
 ## Performance Analysis
