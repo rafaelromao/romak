@@ -124,8 +124,8 @@ And this is how this Magic Key behaves:
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
 | &blank;  | ignored |  | 
-| h*  | ignored |  | used to replace a char in my remapped VIM
-| o*  | ignored |  | used to enter a new line in VIM
+| h*  | ignored |  | `h` is used to replace a char in my remapped VIM
+| o*  | ignored |  | `o` is used to enter a new line in VIM
 | a*  | ao | xiao | reduce SFBs
 | u*  | ue | blue | reduce SFBs
 | x*  | xc | exceed | reduce SFBs
