@@ -119,6 +119,10 @@ And this is how this Magic Key behaves:
 
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
+| &blank;  | ignored |  | along with Enter, Tab, Esc and Navigation keys, signal that a new word will be started
+| h*  | ignored |  | used to replace a char in my remapped VIM
+| o*  | ignored |  | used to enter a new line in VIM
+| a*  | ao | xiao | reduce SFBs
 | u*  | ue | blue | reduce SFBs
 | x*  | xc | exceed | reduce SFBs
 | s*  | sm | smile | reduce SFBs
