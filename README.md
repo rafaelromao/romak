@@ -129,9 +129,11 @@ And this is how this Magic Key behaves:
 | e*  | ei | sei | avoid uncomfortable ring to pinky sequences 
 | n*  | nd | and | avoid uncomfortable ring to pinky sequences
 | j*  | já | já | reduce activation of Alpha 2 
+| á*  | áv | agradável | reduce activation of Alpha 2
+| é*  | év | prévia | reduce activation of Alpha 2 
 | í*  | ív | possível | reduce activation of Alpha 2 
-| á*  | áv | agradável | reduce activation of Alpha 2 
 | ó*  | óv | imóvel | reduce activation of Alpha 2 
+| ú*  | úv | dúvida | reduce activation of Alpha 2 
 | i*  | backspace I' | I'm | smart apostrophe
 | anything else *  | repeat | follow | reduce SFBs 
 
