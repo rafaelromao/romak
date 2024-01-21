@@ -53,7 +53,7 @@ Alpha 2 layer:
            '  _    _  _
 ```
 
-## Combos for alphas, common symbols and n-grams:
+## Combos for alphas, common symbols:
 
 Alpha 1 combos:
 ```
