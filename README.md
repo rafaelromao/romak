@@ -48,8 +48,8 @@ Alpha 2 layer:
 
 ```
      Q  Qu K          Ô  Ó  Ú
-  Y  Z  X  W          À  Á  É  Í
-     J  Ç  V          ~  Â  Ê
+  Y  Z  X  W          Ã  Á  É  Í
+     J  Ç  V          Õ  Â  Ê
            '  _    _  _
 ```
 
@@ -78,7 +78,7 @@ XW = '
 ÀÁ = -
 ~Â = !
 ÁÉ = )
-ÂÊ = _
+ÂÊ = À
 ```
 
 ## Magic Romak
@@ -108,8 +108,8 @@ Alpha 2 layer:
 
 ```
      Q  Qu K          Ô  Ó  Ú
-  Y  Z  X  W          À  Á  É  Í
-     J  Ç  V          ~  Â  Ê
+  Y  Z  X  W          Ã  Á  É  Í
+     J  Ç  V          Õ  Â  Ê
            '  _    _  _
 ```
 
