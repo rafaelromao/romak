@@ -115,7 +115,7 @@ Alpha 2 layer:
 
 ### Magic Key
 
-And this is how this Magic Key will behaves:
+And this is how this Magic Key behaves:
 
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
