@@ -128,8 +128,9 @@ And this is how this Magic Key will behaves:
 | j*  | já | já | reduce consecutive activation of Alpha 2 
 | í*  | ív | possível | reduce activation of Alpha 2 
 | á*  | áv | agradável | reduce activation of Alpha 2 
-| a* | backspace ã | não | reduce activation of Alpha 2 
-| o* | backspace õ | põe | reduce activation of Alpha 2 
+| a* | backspace ão | não | reduce activation of Alpha 2 
+| o* | backspace õe | põe | reduce activation of Alpha 2 
+| ç* | backspace çã | maçã | reduce activation of Alpha 2 
 | anything else *  | repeat | follow | reduce SFBs 
 
 ## Performance Analysis
