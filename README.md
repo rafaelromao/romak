@@ -89,10 +89,6 @@ This is a version of Romak 24 that uses a Magic Key to improve the typing experi
 
 In this version, a new feature is introduced, the Smart Shift behavior. With this feature, the One Shot Shift key will not act as shift when typed mid word, but as something else instead. In this case, it can be either a Repeat Key or a Magic Key.
 
-This will allow the extisting Repeat Key to be merged within the existing One Shot Shift key, on the right side, which will allow for better hand alternation when used as Repeat Key, since the most repeatable alphas are placed on the left side.
-
-It will also free up the left thumb to accomodate another Smart Shift key, but in this case it will act as a Magic Key when tapped mid word. It will also allow for better hand alternation when used before letters placed in the right hand.
-
 Alpha 1 layer:
 
 ```
