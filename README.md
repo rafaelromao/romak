@@ -97,12 +97,6 @@ Alpha 1 layer:
      F  C  P          H  ,  .   
            ®  Sp   A2 *
 ```
-```
-® = One Shot Shift / Repeat Key
-Sp = Space
-* = One Shot Shift / Magic Key
-A2 = One Shot Alpha 2
-```
 
 Alpha 2 layer:
 
@@ -111,6 +105,12 @@ Alpha 2 layer:
   Y  Z  X  W          Ã  Á  É  Í
      J  Ç  V          Õ  Â  Ê
            '  _    _  _
+```
+```
+® = One Shot Shift / Repeat Key
+Sp = Space
+* = One Shot Shift / Magic Key
+A2 = One Shot Alpha 2
 ```
 
 ### Magic Key
