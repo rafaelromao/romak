@@ -125,7 +125,7 @@ And this is how this Magic Key will behaves:
 | e*  | ei | sei | avoid uncomfortable ring to pinky sequences 
 | n*  | nd | and | avoid uncomfortable ring to pinky sequences
 | i*  | backspace I' | I'm | smart apostrophe
-| j*  | já | já | reduce consecutive activation of Alpha 2 
+| j*  | já | já | reduce activation of Alpha 2 
 | í*  | ív | possível | reduce activation of Alpha 2 
 | á*  | áv | agradável | reduce activation of Alpha 2 
 | a* | backspace ão | não | reduce activation of Alpha 2 
