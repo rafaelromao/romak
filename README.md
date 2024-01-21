@@ -123,9 +123,9 @@ This is how the Smart Shift / Repeat Key behaves:
 
 | Combination  | Output | Reason |
 |---|---|---|
-| Space, Tab, Enter, Esc, Navigation * | One Shot Shift | new word
-| Inactivity * | One Shot Shift | inactivity 
-| anything else *  | repeat| reduce SFBs 
+| Space, Tab, Enter, Esc, Navigation ® | One Shot Shift | new word
+| Inactivity ® | One Shot Shift | inactivity 
+| anything else ®  | repeat| reduce SFBs 
 
 ### Smart Shift / Magic Key
 
