@@ -121,6 +121,7 @@ And this is how this Magic Key behaves:
 |---|---|---|---|
 | u*  | ue | blue | reduce SFBs
 | x*  | xc | exceed | reduce SFBs
+| s*  | sm | smile | reduce SFBs
 | d*  | dy | dye | reduce SFBs
 | t*  | tw | two | reduce SFBs
 | k*  | kw | awkward | reduce SFBs
