@@ -115,17 +115,24 @@ A2 = One Shot Alpha 2
 
 ### Mid Word Detection
 
-Along with Enter, Tab, Esc and Navigation keys, Space will signal to the keyboard that a new word will be starting and clear the repeat key state. 300ms of inactivity will also clear this state. In both cases, One Shot Shift will be triggered instead when the Magic Key or Repeat Key is tapped.
+Along with Enter, Tab, Esc, Backspace and Navigation keys, Space will signal to the keyboard that a new word will be starting and clear the repeat key state. 300ms of inactivity will also clear this state. In both cases, One Shot Shift will be triggered instead when the Magic Key or Repeat Key is tapped.
 
 ### Smart Shift / Repeat Key
 
+Usually the Repeat Key, when not acting like One Shot Shift, will simply repeat the last character, but in some cases an alternate repeat can be fired.
+
 This is how the Smart Shift / Repeat Key behaves:
 
-| Combination  | Output | Reason |
-|---|---|---|
-| Space, Tab, Enter, Esc, Navigation ® | One Shot Shift | new word
-| 300ms of inactivity ® | One Shot Shift | inactivity 
-| anything else ®  | repeat| reduce SFBs 
+| Combination  | Output  | Example | Reason |
+|---|---|---|---|
+| Space, Tab, Enter, Esc, Backspace, Navigation ® | One Shot Shift | | new word
+| 300ms of inactivity ® | One Shot Shift | | inactivity 
+| h®  | One Shot Shift |  | `h` is used to replace a char in my remapped VIM
+| o®  | One Shot Shift |  | `o` is used to enter a new line in VIM
+| y®  | One Shot Shift |  | `y` is used to yank in VIM
+| w®  | wk | awkward | reduce SFBs
+| ç®  | ção | ação | reduce activation of Alpha 2 
+| anything else ®  | repeat| | reduce SFBs 
 
 ### Smart Shift / Magic Key
 
@@ -133,10 +140,11 @@ And this is how this Smart Shift / Magic Key behaves:
 
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
-| Space, Tab, Enter, Esc, Navigation * | One Shot Shift | |  new word
+| Space, Tab, Enter, Esc, Backspace, Navigation * | One Shot Shift | |  new word
 | 300ms inactivity * | One Shot Shift | | inactivity 
 | h*  | One Shot Shift |  | `h` is used to replace a char in my remapped VIM
 | o*  | One Shot Shift |  | `o` is used to enter a new line in VIM
+| y*  | One Shot Shift |  | `y` is used to yank in VIM
 | a*  | ao | xiao | reduce SFBs
 | u*  | ue | blue | reduce SFBs
 | x*  | xc | exceed | reduce SFBs
@@ -144,16 +152,19 @@ And this is how this Smart Shift / Magic Key behaves:
 | d*  | dy | dye | reduce SFBs
 | t*  | tw | two | reduce SFBs
 | k*  | kw | awkward | reduce SFBs
+| w*  | wk | awkward | reduce SFBs
 | l*  | lh | coelho | reduce SFBs
 | r*  | rh | rhythm | reduce SFBs
-| e*  | ei | sei | avoid uncomfortable ring to pinky sequences 
-| n*  | nd | and | avoid uncomfortable ring to pinky sequences
+| g*  | gu | ambíguo | avoid uncomfortable finger movements
+| e*  | ei | sei | avoid uncomfortable finger movements
+| n*  | nd | and | avoid uncomfortable finger movements
 | j*  | já | já | reduce activation of Alpha 2 
 | á*  | áv | agradável | reduce activation of Alpha 2
 | é*  | év | prévia | reduce activation of Alpha 2 
 | í*  | ív | possível | reduce activation of Alpha 2 
 | ó*  | óv | imóvel | reduce activation of Alpha 2 
 | ú*  | úv | dúvida | reduce activation of Alpha 2 
+| ç*  | çõe | ações | reduce activation of Alpha 2 
 | i*  | backspace I' | I'm | smart apostrophe
 | anything else *  | repeat | follow | reduce SFBs 
 
