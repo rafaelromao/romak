@@ -37,12 +37,6 @@ Alpha 1 layer:
      F  C  P          H  ,  .   
            ®  Sp   A2 Sf
 ```
-```
-® = Repeat Last Key
-Sp = Space
-Sf = One Shot Shift
-A2 = One Shot Alpha 2
-```
 
 Alpha 2 layer:
 
@@ -52,8 +46,14 @@ Alpha 2 layer:
      J  Ç  V          Õ  Â  Ê
            '  _    _  _
 ```
+```
+® = Repeat Last Key
+Sp = Space
+Sf = One Shot Shift
+A2 = One Shot Alpha 2
+```
 
-## Combos for alphas, common symbols:
+## Combos:
 
 Alpha 1 combos:
 ```
