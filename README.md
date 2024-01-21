@@ -130,7 +130,6 @@ And this is how this Magic Key will behaves:
 | á*  | áv | agradável | reduce activation of Alpha 2 
 | a* | backspace ão | não | reduce activation of Alpha 2 
 | o* | backspace õe | põe | reduce activation of Alpha 2 
-| ç* | backspace çã | maçã | reduce activation of Alpha 2 
 | anything else *  | repeat | follow | reduce SFBs 
 
 ## Performance Analysis
