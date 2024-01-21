@@ -128,17 +128,12 @@ And this is how this Magic Key will behaves:
 | d*  | dy | dye | reduce SFBs
 | e*  | ei | sei | avoid uncomfortable ring to pinky sequences 
 | n*  | nd | and | avoid uncomfortable ring to pinky sequences
-| no*  | no' | don't | smart apostrophe
-| pronoum*  | pronoum' | you're | smart apostrophe
 | i*  | backspace I' | I'm | smart apostrophe
-| m*  | backspace 's | Rafael's | smart apostrophe
 | j*  | já | já | reduce consecutive activation of Alpha 2 
 | í*  | ív | possível | reduce consecutive activation of Alpha 2 
 | á*  | áv | agradável | reduce consecutive activation of Alpha 2 
 | a* | backspace ã | não | reduce consecutive activation of Alpha 2 
 | o* | backspace õ | põe | reduce consecutive activation of Alpha 2 
-| ça* | backspace ã | maçã | reduce consecutive activation of Alpha 2 
-| ço* | backspace õ | ações | reduce consecutive activation of Alpha 2
 | anything else *  | repeat | follow | reduce SFBs 
 
 ## Performance Analysis
