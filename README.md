@@ -99,12 +99,12 @@ Alpha 1 layer:
      B  M  G          L  O  U   
   D  N  S  T          R  A  E  I 
      F  C  P          H  ,  .   
-           *  Sp   A2 ®
+           ®  Sp   A2 *
 ```
 ```
-* = One Shot Shift / Magic Key
-Sp = Space
 ® = One Shot Shift / Repeat Key
+Sp = Space
+* = One Shot Shift / Magic Key
 A2 = One Shot Alpha 2
 ```
 
