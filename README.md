@@ -124,7 +124,7 @@ This is how the Smart Shift / Repeat Key behaves:
 | Combination  | Output | Reason |
 |---|---|---|
 | Space, Tab, Enter, Esc, Navigation ® | One Shot Shift | new word
-| Inactivity ® | One Shot Shift | inactivity 
+| 300ms of nactivity ® | One Shot Shift | inactivity 
 | anything else ®  | repeat| reduce SFBs 
 
 ### Smart Shift / Magic Key
@@ -134,7 +134,7 @@ And this is how this Smart Shift / Magic Key behaves:
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
 | Space, Tab, Enter, Esc, Navigation * | One Shot Shift | |  new word
-| Inactivity * | One Shot Shift | | inactivity 
+| 300ms nactivity * | One Shot Shift | | inactivity 
 | h*  | One Shot Shift |  | `h` is used to replace a char in my remapped VIM
 | o*  | One Shot Shift |  | `o` is used to enter a new line in VIM
 | a*  | ao | xiao | reduce SFBs
