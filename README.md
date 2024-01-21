@@ -113,13 +113,17 @@ Sp = Space
 A2 = One Shot Alpha 2
 ```
 
+### Mid Word Detection
+
+Along with Enter, Tab, Esc and Navigation keys, Space will signal to the keyboard that a new word will be started and clear the last typed key state. 300ms of inactivity will also clear this state. In both cases, One Shot Shift will be triggered instead when the Magic Key is tapped.
+
 ### Magic Key
 
 And this is how this Magic Key behaves:
 
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
-| &blank;  | ignored |  | along with Enter, Tab, Esc and Navigation keys, &blank; signals that a new word will be started. 300ms of inactivity will also clear the last key to repeat. L
+| &blank;  | ignored |  | 
 | h*  | ignored |  | used to replace a char in my remapped VIM
 | o*  | ignored |  | used to enter a new line in VIM
 | a*  | ao | xiao | reduce SFBs
