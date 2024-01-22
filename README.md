@@ -119,7 +119,7 @@ Along with Enter, Tab, Esc, Backspace and Navigation keys, Space will signal to 
 
 ### Smart Shift / Repeat Key
 
-Usually the Repeat Key, when not acting like One Shot Shift, will simply repeat the last character, but in some cases an alternate repeat can be fired.
+Usually the Repeat Key, when not acting like One Shot Shift, will simply repeat the last character, but in some cases an alternate repeat can be used for word completion.
 
 This is how the Smart Shift / Repeat Key behaves:
 
@@ -130,8 +130,17 @@ This is how the Smart Shift / Repeat Key behaves:
 | h®  | One Shot Shift |  | `h` is used to replace a char in my remapped VIM
 | o®  | One Shot Shift |  | `o` is used to enter a new line in VIM
 | y®  | One Shot Shift |  | `y` is used to yank in VIM
-| w®  | wk | awkward | reduce SFBs
-| ç®  | ção | ação | reduce activation of Alpha 2 
+| a®  | and | and | word completion
+| k®  | key | keyboard | word completion
+| v®  | ver | version | word completion
+| j®  | just | just | word completion
+| m®  | ment | moment | word completion
+| w®  | which | which | word completion
+| .®  | .com | .com | word completion
+| i®  | ng | doing | word completion
+| ã®  | ão | não | word completion
+| õ®  | ões | anões | word completion
+| ç®  | ção | ação | word completion 
 | anything else ®  | repeat| | reduce SFBs 
 
 ### Smart Shift / Magic Key
@@ -147,24 +156,32 @@ And this is how this Smart Shift / Magic Key behaves:
 | y*  | One Shot Shift |  | `y` is used to yank in VIM
 | a*  | ao | xiao | reduce SFBs
 | u*  | ue | blue | reduce SFBs
+| e*  | eu | meu | reduce SFBs
+| c*  | cs | physics | reduce SFBs
 | x*  | xc | exceed | reduce SFBs
 | s*  | sm | smile | reduce SFBs
 | d*  | dy | dye | reduce SFBs
 | t*  | tw | two | reduce SFBs
+| n*  | nf | info | reduce SFBs
 | k*  | kw | awkward | reduce SFBs
 | w*  | wk | awkward | reduce SFBs
 | l*  | lh | coelho | reduce SFBs
 | r*  | rh | rhythm | reduce SFBs
-| g*  | gu | ambíguo | avoid uncomfortable finger movements
-| e*  | ei | sei | avoid uncomfortable finger movements
-| n*  | nd | and | avoid uncomfortable finger movements
+| b*  | by | bye | avoid uncomfortable moves
+| f*  | fy | certify | avoid uncomfortable moves
+| g*  | gu | ambíguo | avoid uncomfortable moves
+| ã*  | ão | não | avoid uncomfortable moves
+| õ*  | õe | põe | avoid uncomfortable moves
+| .*  | ./ | ./ | avoid uncomfortable moves 
+| -*  | -> | -> | avoid uncomfortable moves
 | j*  | já | já | reduce activation of Alpha 2 
+| v*  | ví | vírus | reduce activation of Alpha 2 
 | á*  | áv | agradável | reduce activation of Alpha 2
 | é*  | év | prévia | reduce activation of Alpha 2 
 | í*  | ív | possível | reduce activation of Alpha 2 
 | ó*  | óv | imóvel | reduce activation of Alpha 2 
 | ú*  | úv | dúvida | reduce activation of Alpha 2 
-| ç*  | çõe | ações | reduce activation of Alpha 2 
+| ç*  | çõ | ações | reduce activation of Alpha 2 
 | i*  | backspace I' | I'm | smart apostrophe
 | anything else *  | repeat | follow | reduce SFBs 
 
