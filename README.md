@@ -194,7 +194,7 @@ And this is how this Smart Shift / Magic Key behaves:
 
 ## Performance Analysis
 
-A quick comparison between these 3 variations of Romak and some popular modern layouts can be seen below. These tests included both Portuguese and English in the text corpus.
+A quick comparison between the 3 main variations of Romak and some popular modern layouts can be seen below. These tests included both Portuguese and English in the text corpus.
 
 ![img](img/perf3romaks.png)
 ![img](img/heatmaps3romaks.png)
