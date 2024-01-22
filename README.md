@@ -119,7 +119,7 @@ Along with Enter, Tab, Esc, Backspace and Navigation keys, Space will signal to 
 
 ### Smart Shift / Repeat Key
 
-Usually the Repeat Key, when not acting like One Shot Shift, will simply repeat the last character, but in some cases an alternate repeat can be used, most of the cases for word completion.
+Usually the Repeat Key, when not acting like One Shot Shift, will simply repeat the last character, but in some cases, an alternate repeat can be used, most of the time to complete a word.
 
 This is how the Smart Shift / Repeat Key behaves:
 
