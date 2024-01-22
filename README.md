@@ -167,6 +167,7 @@ And this is how this Smart Shift / Magic Key behaves:
 | w*  | wk | awkward | reduce SFBs
 | l*  | lh | coelho | reduce SFBs
 | r*  | rh | rhythm | reduce SFBs
+| p*  | pq | pq | avoid uncomfortable moves
 | b*  | by | bye | avoid uncomfortable moves
 | f*  | fy | certify | avoid uncomfortable moves
 | g*  | gu | ambíguo | avoid uncomfortable moves
