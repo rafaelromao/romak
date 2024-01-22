@@ -171,7 +171,6 @@ And this is how this Smart Shift / Magic Key behaves:
 | t*  | tw | two | reduce SFBs
 | u*  | ue | blue | reduce SFBs
 | w*  | wk | awkward | reduce SFBs
-| x*  | xc | exceed | reduce SFBs
 | b*  | by | bye | avoid uncomfortable movements
 | f*  | fy | certify | avoid uncomfortable movements
 | g*  | gu | ambíguo | avoid uncomfortable movements
@@ -183,6 +182,7 @@ And this is how this Smart Shift / Magic Key behaves:
 | j*  | já | já | reduce activation of Alpha 2 
 | p*  | pq | pq | reduce activation of Alpha 2 
 | v*  | vá | várias | reduce activation of Alpha 2 
+| x*  | xí | exímio | reduce activation of Alpha 2 
 | á*  | áv | agradável | reduce activation of Alpha 2
 | é*  | év | prévia | reduce activation of Alpha 2 
 | í*  | ív | possível | reduce activation of Alpha 2 
