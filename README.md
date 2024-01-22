@@ -83,7 +83,7 @@ XW = '
 
 ## Magic Romak
 
-This is a version of Romak 24 that uses a Magic Key to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
+This is a version of Romak 24 that uses a [Magic Key](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
 
 ### Smart Shift
 
