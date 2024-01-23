@@ -127,24 +127,24 @@ This is how the Smart Shift / Repeat Key behaves:
 |---|---|---|---|
 | Space, Tab, Enter, Esc, Backspace, Navigation ® | One Shot Shift | | new word
 | 300ms of inactivity ® | One Shot Shift | | inactivity 
-| h®  | One Shot Shift |  | `h` is used to replace a char in my remapped VIM
-| o®  | One Shot Shift |  | `o` is used to enter a new line in VIM
-| y®  | One Shot Shift |  | `y` is used to yank in VIM
 | a®  | and | and | word completion
-| i®  | ng | doing | word completion
-| j®  | just | just | word completion
+| h®  | hões | milhões | word completion 
+| i®  | ing | doing | word completion
+| j®  | já | já | word completion 
 | k®  | key | keyboard | word completion
-| v®  | ver | version | word completion
 | w®  | which | which | word completion
+| x®  | xá | hexágono | word completion
+| y®  | you | you | word completion
+| v®  | vá | várias | word completion
 | ã®  | ão | não | word completion
-| õ®  | ões | anões | word completion
+| õ®  | ões | limões | word completion
 | ç®  | ção | ação | word completion 
 | .®  | .com | .com | word completion
-| á®  | áv | agradável | reduce activation of Alpha 2
-| é®  | év | prévia | reduce activation of Alpha 2 
-| í®  | ív | possível | reduce activation of Alpha 2 
-| ó®  | óv | imóvel | reduce activation of Alpha 2 
-| ú®  | úv | dúvida | reduce activation of Alpha 2 
+| á®  | áv | agradável | word completion
+| é®  | év | prévia | word completion
+| í®  | ív | possível | word completion
+| ó®  | óv | imóvel | word completion
+| ú®  | úv | dúvida | word completion
 | anything else ®  | repeat| follow | reduce SFBs 
 
 ### Smart Shift / Magic Key
@@ -158,6 +158,8 @@ And this is how this Smart Shift / Magic Key behaves:
 | h*  | One Shot Shift |  | `h` is used to replace a char in my remapped VIM
 | o*  | One Shot Shift |  | `o` is used to enter a new line in VIM
 | y*  | One Shot Shift |  | `y` is used to yank in VIM
+| z*  | One Shot Shift |  | `z` is used to insert in my remapped VIM
+| j*  | One Shot Shift |  | `j` is used to append in my remapped VIM
 | a*  | ao | xiao | reduce SFBs
 | c*  | cs | physics | reduce SFBs
 | d*  | dy | dye | reduce SFBs
@@ -166,7 +168,8 @@ And this is how this Smart Shift / Magic Key behaves:
 | l*  | lh | coelho | reduce SFBs
 | m*  | ms | synonyms | reduce SFBs
 | n*  | nf | info | reduce SFBs
-| r*  | rh | rhythm | reduce SFBs
+| p*  | pt | accept | reduce SFBs
+| r*  | rl | early | reduce SFBs
 | s*  | sm | smile | reduce SFBs
 | t*  | tw | two | reduce SFBs
 | u*  | ue | blue | reduce SFBs
@@ -178,17 +181,15 @@ And this is how this Smart Shift / Magic Key behaves:
 | õ*  | õe | põe | avoid uncomfortable movements
 | .*  | ./ | ./ | avoid uncomfortable movements 
 | -*  | -> | -> | avoid uncomfortable movements
-| qu*  | quê | sequência | reduce activation of Alpha 2 
-| j*  | já | já | reduce activation of Alpha 2 
-| p*  | pq | pq | reduce activation of Alpha 2 
-| v*  | vá | várias | reduce activation of Alpha 2 
+| qu* | quê | sequência | reduce activation of Alpha 2 
+| v*  | ví | vídeo | reduce activation of Alpha 2
 | x*  | xí | exímio | reduce activation of Alpha 2 
 | á*  | áv | agradável | reduce activation of Alpha 2
 | é*  | év | prévia | reduce activation of Alpha 2 
 | í*  | ív | possível | reduce activation of Alpha 2 
 | ó*  | óv | imóvel | reduce activation of Alpha 2 
 | ú*  | úv | dúvida | reduce activation of Alpha 2 
-| ç*  | çõ | ações | reduce activation of Alpha 2 
+| ç*  | çõe | ações | reduce activation of Alpha 2 
 | i*  | backspace I' | I'm | smart apostrophe
 | anything else *  | repeat / ignore |  | reduce SFBs 
 
