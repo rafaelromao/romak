@@ -149,7 +149,7 @@ This is how the Smart Shift / Repeat Key behaves:
 
 ### Smart Shift / Magic Key
 
-The main problem with this double duty in these thumb keys, behaving either as One Shot Shift or as Repeat / Magic keys, is that false positives can happen, with a Repeat or Magic being triggered when a One Shot Shift is expected.
+The main problem with this double duty in these keys is that false positives can happen, with a Repeat or Magic being triggered when a One Shot Shift is expected.
 
 I usually use only the key on the right side as One Shot Shift, so false positives with the Repeat Key are not common, but for the Magic Key they could be quite common.
 
