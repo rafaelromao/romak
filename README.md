@@ -149,7 +149,13 @@ This is how the Smart Shift / Repeat Key behaves:
 
 ### Smart Shift / Magic Key
 
-And this is how this Smart Shift / Magic Key behaves:
+The main problem with this double duty in these thumb keys, behaving either as One Shot Shift or as Repeat / Magic keys, is that false positives can happen, with a Repeat or Magic being triggered when a One Shot Shift is expected.
+
+I usually use only the key on the right side as One Shot Shift, so false positives with the Repeat Key are not common, but for the Magic Key they could be quite common.
+
+For that reason I included the inactivity timeout, since Repeat and Magic Key will usually be required only when fast typing a word. But when working with VIM, moving from the normal to the insert mode and then typing an upper case letter would easily trigger a false positive for the Magic Key. This is why you can see some keys excluded from the Magic.
+
+And this is how the Smart Shift / Magic Key behaves:
 
 | Combination  | Output  | Example | Reason |
 |---|---|---|---|
@@ -157,14 +163,14 @@ And this is how this Smart Shift / Magic Key behaves:
 | 300ms inactivity * | One Shot Shift | | inactivity 
 | h*  | One Shot Shift |  | `h` is used to replace a char in my remapped VIM
 | o*  | One Shot Shift |  | `o` is used to enter a new line in VIM
-| y*  | One Shot Shift |  | `y` is used to yank in VIM
+| y*  | One Shot Shift |  | `y` is used to copy in VIM, and following paste before the cursor is performed with `P`;
 | z*  | One Shot Shift |  | `z` is used to insert in my remapped VIM
 | j*  | One Shot Shift |  | `j` is used to append in my remapped VIM
 | a*  | ao | xiao | reduce SFBs
 | c*  | cs | physics | reduce SFBs
 | d*  | dy | dye | reduce SFBs
 | e*  | eu | meu | reduce SFBs
-| k*  | kw | awkward | reduce SFBs
+| k*  | kw | backward | reduce SFBs
 | l*  | lh | coelho | reduce SFBs
 | m*  | ms | synonyms | reduce SFBs
 | n*  | nf | info | reduce SFBs
