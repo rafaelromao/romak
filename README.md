@@ -151,7 +151,7 @@ This is how the Smart Shift / Repeat Key behaves:
 
 The main problem with this double duty in these keys is that false positives can happen, with a Repeat or Magic being triggered when a One Shot Shift is expected.
 
-I usually use only the key on the right side as One Shot Shift, so false positives with the Repeat Key are not common, but for the Magic Key they could be quite common.
+I usually use only the key on the right side as One Shot Shift, so false positives with the Repeat Key are not frequent, but for the Magic Key they could be quite common.
 
 For that reason I included the inactivity timeout, since Repeat and Magic Key will usually be required only when fast typing a word. But when working with VIM, moving from the normal to the insert mode and then typing an upper case letter would easily trigger a false positive for the Magic Key. This is why you can see some keys excluded from the Magic.
 
