@@ -111,7 +111,7 @@ This is how the **Smart Shift / Repeat Key** behaves:
 | u | y | buy | *
 | ú | v | dúvida  | *
 | v | á | várias | *
-| w | hich | which | *
+| w | hy | why | *
 | x | á | hexágono | *
 | y | ou | you | *
 | z | z | buzzword | 
