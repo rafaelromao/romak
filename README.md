@@ -35,25 +35,25 @@ Alpha 1 layer:
      B  M  G          L  O  U   
   D  N  S  T          R  A  E  I 
      F  C  P          H  ,  .   
-           Rp Sp   A2 Sf
-```
-```
-Rp = Repeat Last Key
-Sp = Space
-Sf = One Shot Shift
-A2 = One Shot Alpha 2 layer
+           ®  Sp   A2 Sf
 ```
 
 Alpha 2 layer:
 
 ```
      Q  Qu K          Ô  Ó  Ú
-  Y  Z  X  W          À  Á  É  Í
-     J  Ç  V          ~  Â  Ê
-           '  Sp   A2 Sf
+  Y  Z  X  W          Ã  Á  É  Í
+     J  Ç  V          Õ  Â  Ê
+           '  _    _  _
+```
+```
+® = Repeat Last Key
+Sp = Space
+Sf = One Shot Shift
+A2 = One Shot Alpha 2
 ```
 
-## Combos for alphas, common symbols and n-grams:
+## Combos:
 
 Alpha 1 combos:
 ```
@@ -75,21 +75,25 @@ QuK = "
 XW = '
 ÇV = ?
 ÔÓ = :
-ÀÁ = -
-~Â = !
+ÃÁ = -
+ÕÂ = !
 ÁÉ = )
-ÂÊ = _
+ÂÊ = À
 ```
+
+## Magic Romak
+
+There is a version of Romak 24 that uses a [Magic Key](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer. To see more about that see [this other page](MagicRomak.md).
 
 ## Performance Analysis
 
-A quick comparison between these 3 variations of Romak and some popular modern layouts can be seen below. These tests included both Portuguese and English in the text corpus.
+A quick comparison between the 3 main variations of Romak and some popular modern layouts can be seen below. These tests included both Portuguese and English in the text corpus.
 
 ![img](img/perf3romaks.png)
 ![img](img/heatmaps3romaks.png)
 
 A more detailed performance analysis for the Romak 34 and other modern layouts can be found [here](analysis.md).
 
-## Use Case
+## Implementation
 
 If you want to see this layout in use, check my [Keyboards](https://github.com/rafaelromao/keyboards) repository.
