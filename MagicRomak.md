@@ -152,15 +152,15 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | ê | x | êxito 
 | f | y | certify 
 | g | u | ambíguo
-| h | OS &#8679; | 
+| h | | 
 | i | backspace I' | I'm
 | í | z | juízo 
-| j | OS &#8679; | 
+| j | | 
 | k | w | backward
 | l | h | coelho
 | m | s | synonyms
 | n | f | info
-| o | OS &#8679; | 
+| o | | 
 | ó | x | próximo 
 | õ | e | põe 
 | ô | v | côvado | 
@@ -175,11 +175,11 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | v | í | vídeo 
 | w | k | awkward 
 | x | í | exímio 
-| y | OS &#8679; | 
-| z | OS &#8679; | 
+| y | | 
+| z | | 
 | . | ./ | ./ 
 | - | -> | ->
 
 ## Implementation
 
-A complete implementation for QMK, and a partial implementation for ZMK, can be found [here](https://github.com/rafaelromao/keyboards).
+A complete implementation for QMK and ZMK can be found [here](https://github.com/rafaelromao/keyboards).
