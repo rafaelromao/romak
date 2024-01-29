@@ -145,7 +145,7 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | à | qu  | àquilo | 
 | b | y | bye 
 | c | s | physics
-| ç | õe | ações 
+| ç | ões | ações 
 | d | y | dye
 | e | u | meu
 | é | u | céu 
