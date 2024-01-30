@@ -79,7 +79,7 @@ This is how the **Smart Shift / Repeat Key** behaves:
 | a | nd | and | *
 | á | v | agradável | *
 | ã | o | não | *
-| â | m | câmbio | *
+| â | n | ângulo | 
 | à | qu  | àquela | *
 | b | b | rabbit | 
 | c | c | accept | 
@@ -141,7 +141,7 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | a | o | caos
 | á | x | máximo 
 | ã | o | não 
-| â | n | ângulo | 
+| â | m | câmbio | *
 | à | qu  | àquilo | 
 | b | y | bye 
 | c | s | physics
