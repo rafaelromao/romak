@@ -128,11 +128,13 @@ There is a inactivity timeout, since Repeat and Magic Key will usually be requir
 
 | Previous Key | Output  | Reason |
 |---|---|---|
-| h | OS &#8679; | `h` is used to replace a char in my remapped VIM
+| c | OS &#8679; | `c` is used to change text in VIM
+| s | OS &#8679; | `s` is used to substitute text in VIM
 | o | OS &#8679; | `o` is used to enter a new line in VIM
-| y | OS &#8679; | `y` is used to copy in VIM, and following paste before the cursor is performed with `P`;
 | z | OS &#8679; | `z` is used to insert in my remapped VIM
 | j | OS &#8679; | `j` is used to append in my remapped VIM
+| h | OS &#8679; | `h` is used to replace text in my remapped VIM
+| y | OS &#8679; | `y` is used to copy in VIM, and following paste before the cursor is performed with `P`
 
 And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 
@@ -144,7 +146,7 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | â | m | câmbio | *
 | à | qu  | àquilo | 
 | b | y | bye 
-| c | s | physics
+| c | | 
 | ç | ões | ações 
 | d | y | dye
 | e | u | meu
@@ -168,7 +170,7 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | q | q | qq (short for qualquer)
 | qu | ê | sequência 
 | r | l | early
-| s | m | smile 
+| s | | 
 | t | w | two 
 | u | e | blue 
 | ú | z | dúzia 
