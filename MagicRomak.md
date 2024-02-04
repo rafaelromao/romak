@@ -134,6 +134,7 @@ There is a inactivity timeout, since Repeat and Magic Key will usually be requir
 | z | OS &#8679; | `z` is used to insert in my remapped VIM
 | j | OS &#8679; | `j` is used to append in my remapped VIM
 | h | OS &#8679; | `h` is used to replace text in my remapped VIM
+| g | OS &#8679; | `g` is used to modify a word in my remapped VIM
 | y | OS &#8679; | `y` is used to copy in VIM, and following paste before the cursor is performed with `P`
 
 And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
@@ -153,7 +154,7 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | é | u | céu 
 | ê | x | êxito 
 | f | y | certify 
-| g | u | ambíguo
+| g | | 
 | h | | 
 | i | backspace I' | I'm
 | í | z | juízo 
