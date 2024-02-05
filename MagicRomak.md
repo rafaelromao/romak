@@ -83,7 +83,7 @@ This is how the **Smart Shift / Repeat Key** behaves:
 | à | qu  | àquela | *
 | b | b | rabbit | 
 | c | c | accept | 
-| ç | ão | ação | *
+| ç | ões | ações | * 
 | d | d | add | 
 | e | e | seed | 
 | é | v | prévia | *
@@ -148,7 +148,7 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | à | qu  | àquilo | 
 | b | y | bye 
 | c | | 
-| ç | ões | ações 
+| ç | ão | ação 
 | d | y | dye
 | e | u | meu
 | é | u | céu 
