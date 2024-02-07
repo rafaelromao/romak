@@ -169,7 +169,7 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | ô | v | côvado | 
 | p | t | accept
 | q | q | qq (short for qualquer)
-| qu | ê | sequência 
+| qu | í | química 
 | r | l | early
 | s | | 
 | t | w | two 
