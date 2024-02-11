@@ -79,7 +79,7 @@ This is how the **Smart Shift / Repeat Key** behaves:
 | a | nd | and | *
 | á | v | agradável | *
 | ã | o | não | *
-| â | n | ângulo | 
+| â | n | ângulo | *
 | à | qu  | àquela | *
 | b | b | rabbit | 
 | c | c | accept | 
