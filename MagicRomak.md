@@ -116,7 +116,6 @@ This is how the **Smart Shift / Repeat Key** behaves:
 | y | ou | you | *
 | z | z | buzzword | 
 | . | com | .com | *
-| - | --- | markdown horizontal separator | *
 
 ### Smart Shift / Magic Key
 
@@ -181,7 +180,6 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | y | | 
 | z | | 
 | . | ./ | ./ 
-| - | -> | ->
 
 ## Implementation
 
