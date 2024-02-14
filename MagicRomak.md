@@ -135,6 +135,7 @@ There is a inactivity timeout, since Repeat and Magic Key will usually be requir
 | h | OS &#8679; | `h` is used to replace text in my remapped VIM
 | g | OS &#8679; | `g` is used to modify a word in my remapped VIM
 | y | OS &#8679; | `y` is used to copy in VIM, and following paste before the cursor is performed with `P`
+| - | OS &#8679; | `-` is used to prefix command paramenters, which can be uppercased
 
 And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 
