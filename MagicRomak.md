@@ -76,7 +76,7 @@ This is how the **Smart Shift / Repeat Key** behaves:
 
 | Previous Key | Output  | Example | Alternate Repeat |
 |---|---|---|---|
-| a | nd | and | *
+| a | v | através | *
 | á | v | agradável | *
 | ã | o | não | *
 | â | n | ângulo | *
