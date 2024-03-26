@@ -6,11 +6,7 @@ For the regular versions of Romak, including performance analysis, check [this o
 
 ## Magic Romak
 
-This is a version of Romak 24 that uses a [Magic Key](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
-
-### Smart Shift
-
-In this version, another new feature is introduced, the Smart Shift behavior. With this feature, the One Shot Shift key will not act as shift when typed mid word, but as something else instead. In this case, it can be either a Repeat Key or a Magic Key.
+This is a version of Romak 24 that uses [Magic Keys](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer. The first Magic Key is actually the regular Repeat Key, but activated for keys that do not worth repeating, which will produce an alternate result. The second Magic Key is in the same place, but in the secondary alpha layer and will also produce an alternate repeat result for the keys for which repeating it is not relevant.
 
 Alpha 1 layer:
 
@@ -18,7 +14,7 @@ Alpha 1 layer:
      B  M  G          L  O  U   
   D  N  S  T          R  A  E  I 
      F  C  P          H  ,  .   
-           ®  Sp   A2 *
+           ®  Sp   A2 Sf
 ```
 
 Alpha 2 layer:
@@ -27,52 +23,21 @@ Alpha 2 layer:
      Q  Qu K          Ô  Ó  Ú
   Y  Z  X  W          Ã  Á  É  Í
      J  Ç  V          Õ  Â  Ê
-           '  _    _  _
+           *  _    _  '
 ```
 ```
-® = One Shot Shift / Repeat Key
+® = Repeat Key
+* = Magic Key
 Sp = Space
-* = One Shot Shift / Magic Key
 A2 = One Shot Alpha 2
-```
-## Combos:
-
-Alpha 1 combos:
-```
-NS = Q
-MG = K
-ST = W
-CP = V
-LO = X
-RA = Z
-H, = J
-AE = Y
+Sf = One Shot Shift
 ```
 
-Alpha 2 combos:
-```
-ZX = (
-JÇ = _
-QuK = "
-XW = '
-ÇV = ?
-ÔÓ = :
-ÃÁ = -
-ÕÂ = !
-ÁÉ = )
-ÂÊ = À
-```
+### Smart Repeat Key
 
+Usually the Repeat Key will simply repeat the last character, but in some cases, an alternate repeat can be used, most of the time to complete a word. Alternate repeats must be simple to memorize, anything more complex should go to the Magic Key.
 
-### Mid Word Detection
-
-Along with Enter, Tab, Esc, Backspace and Navigation keys, Space will signal to the keyboard that a new word will be starting and clear the repeat key state. 300ms of inactivity will also clear this state. In both cases, One Shot Shift will be triggered instead when the Magic Key or Repeat Key is tapped.
-
-### Smart Shift / Repeat Key
-
-Usually the Repeat Key, when not acting like One Shot Shift, will simply repeat the last character, but in some cases, an alternate repeat can be used, most of the time to complete a word. Alternate repeats must be simple to memorize, anything more complex should go to the Magic Key.
-
-This is how the **Smart Shift / Repeat Key** behaves:
+This is how the **Smart Repeat Key** behaves:
 
 | Previous Key | Output  | Example | Alternate Repeat |
 |---|---|---|---|
@@ -83,7 +48,7 @@ This is how the **Smart Shift / Repeat Key** behaves:
 | à | qu  | àquela | *
 | b | b | rabbit | 
 | c | c | accept | 
-| ç | ões | ações | * 
+| ç | ão | ação 
 | d | d | add | 
 | e | e | seed | 
 | é | v | prévia | *
@@ -117,27 +82,11 @@ This is how the **Smart Shift / Repeat Key** behaves:
 | z | z | buzzword | 
 | . | com | .com | *
 
-### Smart Shift / Magic Key
+### Smart Magic Key
 
-The main problem with this double duty in these keys is that false positives can happen, with a Repeat or Magic being triggered when a One Shot Shift is expected.
+The Magic Key is available in the same physical key as the repeat key, but in the secondary alpha layer.
 
-I usually use only the key on the right side as One Shot Shift, so false positives with the Repeat Key are not frequent, but for the Magic Key they could be quite common.
-
-There is a inactivity timeout, since Repeat and Magic Key will usually be required only when fast typing a word, but when working with VIM, moving from the normal to the insert mode and then typing an upper case letter would easily trigger a false positive. This is why some keys must be excluded:
-
-| Previous Key | Output  | Reason |
-|---|---|---|
-| c | OS &#8679; | `c` is used to change text in VIM
-| s | OS &#8679; | `s` is used to substitute text in VIM
-| o | OS &#8679; | `o` is used to enter a new line in VIM
-| z | OS &#8679; | `z` is used to insert in my remapped VIM
-| j | OS &#8679; | `j` is used to append in my remapped VIM
-| h | OS &#8679; | `h` is used to replace text in my remapped VIM
-| g | OS &#8679; | `g` is used to modify a word in my remapped VIM
-| y | OS &#8679; | `y` is used to copy in VIM, and following paste before the cursor is performed with `P`
-| - | OS &#8679; | `-` is used to prefix command paramenters, which can be uppercase
-
-And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
+This is how the **Smart Shift / Magic Key** behaves:
 
 | Previous Key | Output  | Example | 
 |---|---|---|
@@ -148,7 +97,7 @@ And this is how the **Smart Shift / Magic Key** behaves for the remaining keys:
 | à | qu  | àquilo | 
 | b | y | bye 
 | c | | 
-| ç | ão | ação 
+| ç | ões | ações | * 
 | d | y | dye
 | e | u | meu
 | é | u | céu 
