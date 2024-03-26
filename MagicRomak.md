@@ -33,11 +33,11 @@ A2 = One Shot Alpha 2
 Sf = One Shot Shift
 ```
 
-### Smart Repeat Key
+### Repeat Key
 
 Usually the Repeat Key will simply repeat the last character, but in some cases, an alternate repeat can be used, most of the time to complete a word. Alternate repeats must be simple to memorize, anything more complex should go to the Magic Key.
 
-This is how the **Smart Repeat Key** behaves:
+This is how the **Repeat Key** behaves:
 
 | Previous Key | Output  | Example | Alternate Repeat |
 |---|---|---|---|
@@ -48,7 +48,7 @@ This is how the **Smart Repeat Key** behaves:
 | à | qu  | àquela | *
 | b | b | rabbit | 
 | c | c | accept | 
-| ç | ão | ação 
+| ç | ão | ação | * 
 | d | d | add | 
 | e | e | seed | 
 | é | v | prévia | *
@@ -82,53 +82,52 @@ This is how the **Smart Repeat Key** behaves:
 | z | z | buzzword | 
 | . | com | .com | *
 
-### Smart Magic Key
+### Magic Key
 
 The Magic Key is available in the same physical key as the repeat key, but in the secondary alpha layer.
 
-This is how the **Smart Shift / Magic Key** behaves:
+This is how the **Magic Key** behaves:
 
 | Previous Key | Output  | Example | 
 |---|---|---|
 | a | o | caos
 | á | x | máximo 
 | ã | o | não 
-| â | m | câmbio | *
+| â | m | câmbio
 | à | qu  | àquilo | 
 | b | y | bye 
-| c | | 
-| ç | ões | ações | * 
+| c | s | docs
+| ç | ões | ações
 | d | y | dye
 | e | u | meu
 | é | u | céu 
 | ê | x | êxito 
 | f | y | certify 
-| g | | 
-| h | | 
+| g | g | 
+| h | r | chrome
 | i | backspace I' | I'm
 | í | z | juízo 
-| j | | 
+| j | ã | feijão 
 | k | w | backward
 | l | h | coelho
 | m | s | synonyms
 | n | f | info
-| o | | 
+| o | o | 
 | ó | x | próximo 
 | õ | e | põe 
-| ô | v | côvado | 
+| ô | v | côvado 
 | p | t | accept
-| q | q | qq (short for qualquer)
 | qu | í | química 
 | r | l | early
-| s | | 
+| s | c | school
 | t | w | two 
 | u | e | blue 
 | ú | z | dúzia 
 | v | í | vídeo 
 | w | k | awkward 
 | x | í | exímio 
-| y | | 
-| z | | 
+| y | y | 
+| z | z | 
 | . | ./ | ./ 
 
 ## Implementation
