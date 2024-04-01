@@ -6,7 +6,11 @@ For the regular versions of Romak, including performance analysis, check [this o
 
 ## Magic Romak
 
-This is a version of Romak 24 that uses [Magic Keys](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer. The first Magic Key is actually the regular Repeat Key, but activated for keys that do not worth repeating, which will produce an alternate result. The second Magic Key is in the same place, but in the secondary alpha layer and will also produce an alternate repeat result for the keys for which repeating it is not relevant.
+This is a version of Romak 24 that uses [Magic Keys](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
+
+These Magic Keys replace the regular Repeat Key on the standard Romak 24.
+- In the base layer, this key repeats the last key by default (Repeat Key), but outputs an alternate result for keys that do not worth repeating (Alternate Repeat Key).
+- When tapped in the secondary alpha layer, this key outputs alternate results by default (Magic Key), but repeats the key when there is no predefined alternate result.
 
 Alpha 1 layer:
 
