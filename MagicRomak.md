@@ -85,6 +85,7 @@ This is how the **Repeat Key** behaves:
 | y | ou | you | *
 | z | z | buzzword | 
 | . | com | .com | *
+| ' | v | I've | *
 
 ### Magic Key
 
