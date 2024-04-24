@@ -123,7 +123,7 @@ This is how the **Magic Key** behaves:
 | ô | v | côvado 
 | p | t | accept
 | qu | í | química 
-| r | l | early
+| r | ly | early
 | s | c | school
 | t | w | two 
 | u | e | blue 
