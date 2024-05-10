@@ -81,6 +81,19 @@ XW = '
 ÂÊ = À
 ```
 
+## Ç Extension
+
+There is an optional extension to the secondary layer, which I call *Ç Extension*. It activates an one-shot layer just after `ç` is typed, to allow easy access to the vowels and accentuated vowels that are commonly seem after ç, in Portuguese, so that typing common bigrams like `çã` and `çõ` will not require two consecutive activations of the secondary alpha layer.
+
+Ç Extension layer:
+
+```
+     _  _  _          Ô  O  U
+  _  _  _  _          Ã  A  E  Ú
+     _  _  _          Õ  Á  Ó
+           _  _    _  _
+```
+
 ## Magic Romak
 
 There is a version of Romak 24 that uses a [Magic Key](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer. To see more about that check the [Magic Romak](MagicRomak.md) page.
