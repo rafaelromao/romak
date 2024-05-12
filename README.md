@@ -89,8 +89,8 @@ There is an optional extension to the secondary alpha layer, which I call *Ç Ex
 
 ```
      _  _  _          Ô  O  U
-  _  _  _  _          Ã  A  E  Ú
-     _  _  _          Õ  Á  Ó
+  _  _  _  _          Ã  A  Á  _
+     _  _  _          Õ  Ó  Ú
            _  _    _  _
 ```
 
