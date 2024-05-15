@@ -83,7 +83,7 @@ XW = '
 
 ## Ç Extension
 
-There is an optional extension to the secondary alpha layer, which I call *Ç Extension*. It activates an one-shot layer just after `ç` is typed, to allow easy access to the vowels and accentuated vowels that are commonly seen after ç, in Portuguese, so that typing common bigrams like `çã` and `çõ` will not require two consecutive activations of the secondary alpha layer.
+There is an extension to the secondary alpha layer, which I call *Ç Extension*. It activates an one-shot layer just after `ç` is typed, to allow easy access to the vowels and accentuated vowels that are commonly seen after `ç`, in Portuguese, so that typing common bigrams like `çã` and `çõ` will not require two consecutive activations of the secondary alpha layer. The characters `a`, `ã`, `â`, `o`, `ô`, `õ`, `u` and `ú` are available in this layer, while `e`, `é`, `ê` and `í` are not, since they will never appear after `ç`. The position of these characters in the secondary alpha layer is also thought to support this.
 
 Ç Extension layer:
 
