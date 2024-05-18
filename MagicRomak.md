@@ -24,9 +24,9 @@ Alpha 1 layer:
 Alpha 2 layer:
 
 ```
-     Q  Qu K          Ô  Ó  Ú
-  Y  Z  X  W          Ã  Á  É  Í
-     J  Ç  V          Õ  Â  Ê
+     Q  Qu K          Ô  Ê  Â
+  Y  Z  X  W          Ã  É  Á  Í
+     J  Ç  V          Õ  Ó  Ú
            *  _    _  '
 ```
 ```

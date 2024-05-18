@@ -41,7 +41,7 @@ Alpha 1 layer:
 Alpha 2 layer:
 
 ```
-     Q  Qu K          Ô  Â  Ê
+     Q  Qu K          Ô  Ê  Â
   Y  Z  X  W          Ã  É  Á  Í
      J  Ç  V          Õ  Ó  Ú
            '  _    _  _
@@ -74,7 +74,7 @@ JÇ = _
 QuK = "
 XW = '
 ÇV = ?
-ÔÂ = :
+ÔÊ = :
 ÃÉ = -
 ÕÓ = !
 ÉÁ = )
