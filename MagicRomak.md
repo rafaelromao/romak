@@ -132,7 +132,7 @@ This is how the **Magic Key** behaves:
 | w | k | awkward 
 | x | í | exímio 
 | y | y | 
-| z | z | 
+| z | á | 
 | . | ./ | ./ 
 
 ## Implementation
