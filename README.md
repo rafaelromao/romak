@@ -44,13 +44,13 @@ Alpha 2 layer:
      Q  Qu K          Ô  Ê  Â
   Y  Z  X  W          Ã  É  Á  Í
      J  Ç  V          Õ  Ó  Ú
-           '  _    _  _
+           '  _    _  '
 ```
 ```
 ® = Repeat Last Key
 Sp = Space
-Sf = One Shot Shift
 A2 = One Shot Alpha 2
+Sf = One Shot Shift
 ```
 
 ## Combos:

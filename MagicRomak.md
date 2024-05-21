@@ -6,19 +6,19 @@ For the regular versions of Romak, including performance analysis, check [this o
 
 ## Magic Romak
 
-This is a version of Romak 24 that uses [Magic Keys](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
+This is a version of Romak 24 that uses a [Magic Key](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
 
-These Magic Keys replace the regular Repeat Key on the standard Romak 24.
-- In the base layer, this key repeats the last key by default (Repeat Key), but outputs an alternate result for keys that do not worth repeating (Alternate Repeat Key).
-- When tapped in the secondary alpha layer, this key outputs alternate results by default (Magic Key), but repeats the key when there is no predefined alternate result.
+This Magic Key replaces the comma from the standard Romak 24.
+
+The standard Repeat Key is also replaced by a Smart Repeat Key, which outputs an alternate result for keys that do not worth repeating.
 
 Alpha 1 layer:
 
 ```
      B  M  G          L  O  U   
   D  N  S  T          R  A  E  I 
-     F  C  P          H  ,  .   
-           ®  Sp   A2 Sf
+     F  C  P          H  *  .   
+           ®  Sp  A2  Sf
 ```
 
 Alpha 2 layer:
@@ -27,19 +27,29 @@ Alpha 2 layer:
      Q  Qu K          Ô  Ê  Â
   Y  Z  X  W          Ã  É  Á  Í
      J  Ç  V          Õ  Ó  Ú
-           *  _    _  '
+           '  _    _  '
 ```
 ```
-® = Repeat Key
-* = Magic Key
+ ® = Repeat Key
 Sp = Space
-A2 = One Shot Alpha 2
-Sf = One Shot Shift
+A2 = One-Shot Alpha 2
+Sf = One-Shot Shift
+ * = Magic Key
 ```
+
+### Comma-Shift
+
+But since comma is replaced by this Magic Key, how can we type comma?
+
+The best way to use comma in Magic Romak is simply tapping Space after tapping One-Shot Shift. In this case it will send `, ` (comma followed by space), which is quite smart, since comma will almost always be followed by space.
+In practice, it can also give the impression that the One-Shot Shift key is actually behaving like a comma when followed by Space, thus the Comma-Shift nickname.
+
+Another way to type comma is tapping One-Shot Shift before tapping the Magic Key. It will make the Magic Key behave as a regular comma.
+On the other hand, simple shifting (holding shift while tapping) the Magic Key will type `<`, to preserve the angle brackets pair usually found in the shifted versions of `,` and `.`.
 
 ### Repeat Key
 
-Usually the Repeat Key will simply repeat the last character, but in some cases, an alternate repeat can be used, most of the time to complete a word. Alternate repeats must be simple to memorize, anything more complex should go to the Magic Key.
+Usually the Repeat Key will simply repeat the last character, but in some cases, an alternate repeat can be used. Alternate repeats must be simple to memorize, anything more complex should go to the Magic Key.
 
 This is how the **Repeat Key** behaves:
 
