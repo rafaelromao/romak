@@ -8,7 +8,7 @@ For the regular versions of Romak, including performance analysis, check [this o
 
 This is a version of Romak 24 that uses a [Magic Key](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
 
-This Magic Key replace the regular H key from the standard Romak 24. It will still type H by default, but will also produce V or Y in some cases where H is not the most useful output. For consonants in the secondary alpha layer, this Magic Key will simply reactivate the secondary alpha layer for a second shot.
+This Magic Key replaces the regular H key from the standard Romak 24. It will still type H by default, but will also produce V or Y in some cases where H is not the most useful output. For consonants in the secondary alpha layer, this Magic Key will simply reactivate the secondary alpha layer for a second shot.
 
 To cope with the cases where an H is required but the Magic Key would produce something else, the Q in the secondary alpha layer is moved to the outer left thumb key, with H taking its place.
 
