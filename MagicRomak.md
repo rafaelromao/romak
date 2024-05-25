@@ -47,7 +47,7 @@ This is how the **Repeat Key** behaves:
 |---|---|
 | H | AH |
 | Qu | Ê |
-| Ç | OS Alpha2 |  
+| Ç | OS Alpha 2 |  
 | ' | V |
 | Anything Else | Repeat | 
 
@@ -59,7 +59,7 @@ This is how the **Magic Key** behaves:
 
 | Previous Keys | Output  | 
 |---|---|
-| YZXHQuKJÇV | OS Alpha2 |
+| YZXHQuKJÇV | OS Alpha 2 |
 | ÂÀÃÕ |  |
 | AÁEÉÊIÍOÓÔUÚ ' | V
 | BMDF | Y |
