@@ -59,7 +59,7 @@ This is how the **Magic Key** behaves:
 
 | Previous Keys | Output  | 
 |---|---|
-| YZXWHQuKJÇV | OS Alpha2 |
+| YZXHQuKJÇV | OS Alpha2 |
 | ÂÃÕ |  |
 | AÁEÉÊIÍOÓÔUÚ ' | V
 | BMDF | Y |
