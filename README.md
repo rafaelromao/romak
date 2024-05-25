@@ -41,10 +41,10 @@ Alpha 1 layer:
 Alpha 2 layer:
 
 ```
-     Q  Qu K          Ô  Ó  Ú
-  Y  Z  X  W          Ã  Á  É  Í
-     J  Ç  V          Õ  Â  Ê
-           '  _    _  _
+     Q  Qu K          Ô  Ê  Â
+  Y  Z  X  W          Ã  É  Á  Í
+     J  Ç  V          Õ  Ó  Ú
+           '  _    _  '
 ```
 ```
 ® = Repeat Last Key
@@ -74,11 +74,24 @@ JÇ = _
 QuK = "
 XW = '
 ÇV = ?
-ÔÓ = :
-ÃÁ = -
-ÕÂ = !
-ÁÉ = )
-ÂÊ = À
+ÔÊ = :
+ÃÉ = -
+ÕÓ = !
+ÉÁ = )
+ÓÚ = À
+```
+
+## Ç Extension
+
+There is an extension to the secondary alpha layer, which I call *Ç Extension*. It activates an one-shot layer just after `ç` is typed, to allow easy access to the vowels and accentuated vowels that are commonly seen after `ç`, in Portuguese, so that typing common bigrams like `çã` and `çõ` will not require two consecutive activations of the secondary alpha layer. The characters `a`, `ã`, `â`, `o`, `ô`, `õ`, `u` and `ú` are available in this layer, while `e`, `é`, `ê` and `í` are not, since they will never appear after `ç`. The position of these characters in the secondary alpha layer is also thought to support this.
+
+Ç Extension layer:
+
+```
+     _  _  _          Ô  O  U
+  _  _  _  _          Ã  A  Á  _
+     _  _  _          Õ  Ó  Ú
+           _  _    _  _
 ```
 
 ## Magic Romak
