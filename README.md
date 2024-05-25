@@ -44,7 +44,7 @@ Alpha 2 layer:
      Q  Qu K          Ô  Ê  Â
   Y  Z  X  W          Ã  É  Á  Í
      J  Ç  V          Õ  Ó  Ú
-           '  _    _  _
+           '  _    _  '
 ```
 ```
 ® = Repeat Last Key

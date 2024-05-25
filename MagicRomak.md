@@ -6,28 +6,28 @@ For the regular versions of Romak, including performance analysis, check [this o
 
 ## Magic Romak
 
-This is a version of Romak 24 that uses [Magic Keys](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
+This is a version of Romak 24 that uses a [Magic Key](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer.
 
-These Magic Keys replace the regular Repeat Key on the standard Romak 24.
-- In the base layer, this key repeats the last key by default (Repeat Key), but outputs an alternate result for keys that do not worth repeating (Alternate Repeat Key).
-- When tapped in the secondary alpha layer, this key outputs alternate results by default (Magic Key), but repeats the key when there is no predefined alternate result.
+This Magic Key replace the regular H key from the standard Romak 24. It will still type H by default, but will also produce V or Y in some cases where H is not the most useful output. For consonants in the secondary alpha layer, this Magic Key will simply reactivate the secondary alpha layer for a second shot.
+
+To cope with the cases where an H is required but the Magic Key would produce something else, the Q in the secondary alpha layer is moved to the outer left thumb key, with H taking its place.
 
 Alpha 1 layer:
 
 ```
      B  M  G          L  O  U   
   D  N  S  T          R  A  E  I 
-     F  C  P          H  ,  .   
+     F  C  P          *  ,  .   
            ®  Sp   A2 Sf
 ```
 
 Alpha 2 layer:
 
 ```
-     Q  Qu K          Ô  Ê  Â
+     H  Qu K          Ô  Ê  Â
   Y  Z  X  W          Ã  É  Á  Í
      J  Ç  V          Õ  Ó  Ú
-           *  _    _  '
+           Q  _    _  '
 ```
 ```
 ® = Repeat Key
@@ -39,102 +39,34 @@ Sf = One Shot Shift
 
 ### Repeat Key
 
-Usually the Repeat Key will simply repeat the last character, but in some cases, an alternate repeat can be used, most of the time to complete a word. Alternate repeats must be simple to memorize, anything more complex should go to the Magic Key.
+Usually the Repeat Key will simply repeat the last character, but in some cases an alternate repeat can be used.
 
 This is how the **Repeat Key** behaves:
 
-| Previous Key | Output  | Example | Alternate Repeat |
-|---|---|---|---|
-| a | v | através | *
-| á | v | agradável | *
-| ã | o | não | *
-| â | n | ângulo | *
-| à | qu  | àquela | *
-| b | b | rabbit | 
-| c | c | accept | 
-| ç | ão | ação | * 
-| d | d | add | 
-| e | e | seed | 
-| é | v | prévia | *
-| ê | e | vêem | *
-| f | f | off | 
-| g | g | hugging | 
-| h | ões | milhões | *
-| i | ng | doing | *
-| í | v | possível | *
-| j | á | já | *
-| k | ey | keyboard | *
-| l | l | follow | 
-| m | m | common | 
-| n | n | announce | 
-| o | o | door | 
-| ó | v | imóvel | *
-| õ | es | limões | *
-| ô | o | vôo | *
-| p | p | flopping | 
-| q | q | qq (short for qualquer) | 
-| qu | ê | sequência | *
-| r | r | carry | 
-| s | s | less | 
-| t | t | flutter | 
-| u | y | buy | *
-| ú | v | dúvida  | *
-| v | á | várias | *
-| w | hy | why | *
-| x | á | hexágono | *
-| y | ou | you | *
-| z | z | buzzword | 
-| . | com | .com | *
-| ' | v | I've | *
+| Previous Key | Output  |
+|---|---|
+| H | AH |
+| Qu | Ê |
+| Ç | OS Alpha2 |  
+| ' | V |
+| Anything Else | Repeat | 
 
 ### Magic Key
 
-The Magic Key is available in the same physical key as the repeat key, but in the secondary alpha layer.
+The Magic Key will produce H after most consonants, V after most vowels and Y after consonants that are not usually followed by H. For consonants in the secondary alpha layer, it will reactivate the secondary alpha layer.
 
 This is how the **Magic Key** behaves:
 
-| Previous Key | Output  | Example | 
-|---|---|---|
-| a | o | caos
-| á | x | máximo 
-| ã | o | não 
-| â | m | câmbio
-| à | qu  | àquilo | 
-| b | y | bye 
-| c | s | docs
-| ç | ões | ações
-| d | y | dye
-| e | u | meu
-| é | u | céu 
-| ê | x | êxito 
-| f | y | certify 
-| g | g | 
-| h | r | chrome
-| i | backspace I' | I'm
-| í | z | juízo 
-| j | ã | feijão 
-| k | w | backward
-| l | h | coelho
-| m | s | synonyms
-| n | f | info
-| o | o | 
-| ó | x | próximo 
-| õ | e | põe 
-| ô | v | côvado 
-| p | t | accept
-| qu | í | química 
-| r | ly | early
-| s | c | school
-| t | w | two 
-| u | e | blue 
-| ú | z | dúzia 
-| v | í | vídeo 
-| w | k | awkward 
-| x | í | exímio 
-| y | y | 
-| z | á | 
-| . | ./ | ./ 
+| Previous Keys | Output  | 
+|---|---|
+| YZXWHQuKJÇV | OS Alpha2 |
+| ÂÃÕ |  |
+| AÁEÉÊIÍOÓÔUÚ ' | V
+| BMDF | Y |
+| &blank; | H |
+| OS &#8679; | H |
+| Anything Else | H |
 
 ## Implementation
 
-A complete implementation for QMK and ZMK can be found [here](https://github.com/rafaelromao/keyboards).
+A complete implementation can be found [here](https://github.com/rafaelromao/keyboards).
