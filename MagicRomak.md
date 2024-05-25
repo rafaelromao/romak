@@ -37,20 +37,6 @@ A2 = One Shot Alpha 2
 Sf = One Shot Shift
 ```
 
-### Repeat Key
-
-Usually the Repeat Key will simply repeat the last character, but in some cases an alternate repeat can be used.
-
-This is how the **Repeat Key** behaves:
-
-| Previous Key | Output  |
-|---|---|
-| H | AH |
-| Qu | Ê |
-| Ç | OS Alpha 2 |  
-| ' | V |
-| Anything Else | Repeat | 
-
 ### Magic Key
 
 The Magic Key will produce H after most consonants, V after most vowels and Y after consonants that are not usually followed by H. For consonants in the secondary alpha layer, it will reactivate the secondary alpha layer.
@@ -66,6 +52,20 @@ This is how the **Magic Key** behaves:
 | &blank; | H |
 | OS &#8679; | H |
 | Anything Else | H |
+
+### Repeat Key
+
+Usually the Repeat Key will simply repeat the last character, but in some cases an alternate repeat can be used.
+
+This is how the **Repeat Key** behaves:
+
+| Previous Key | Output  |
+|---|---|
+| H | AH |
+| Qu | Ê |
+| Ç | OS Alpha 2 |  
+| ' | V |
+| Anything Else | Repeat | 
 
 ## Implementation
 
