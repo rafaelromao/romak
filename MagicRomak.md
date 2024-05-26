@@ -65,6 +65,7 @@ This is how the **Repeat Key** behaves:
 | Qu | Ê |
 | Ç | OS Alpha 2 |  
 | ' | V |
+| &#8679; I | ' |
 | Anything Else | Repeat | 
 
 ## Implementation
