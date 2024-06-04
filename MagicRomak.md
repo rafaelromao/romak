@@ -47,7 +47,7 @@ This is how the **Magic Key** behaves:
 |---|---|
 | YZXHQuKJÇV | OS Alpha 2 |
 | ÂÀÃÕ |  |
-| AÁEÉÊIÍOÓÔUÚ ' | V
+| AÁEÉÊIÍOÓÔUÚ | V
 | BMDF | Y |
 | &blank; | H |
 | OS &#8679; | H |
