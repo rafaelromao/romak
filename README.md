@@ -69,14 +69,13 @@ AE = Y
 
 Alpha 2 combos:
 ```
-ZX = dead "
-JÇ = _
-XW = dead '
-ÇV = dead `
-ÃÉ = dead ^
-ÕÓ = dead ~
-ÉÁ = &
-ÓÚ = À
+ZX  = dead ^
+JÇ  = dead ~
+QuK = dead "
+XW  = dead '
+ÇV  = dead `
+ÉÁ = À
+ÓÚ = _
 ```
 
 ## Ç Extension
