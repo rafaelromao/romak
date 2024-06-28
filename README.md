@@ -69,15 +69,13 @@ AE = Y
 
 Alpha 2 combos:
 ```
-ZX = (
+ZX = dead "
 JÇ = _
-QuK = "
-XW = '
-ÇV = ?
-ÔÊ = :
-ÃÉ = -
-ÕÓ = !
-ÉÁ = )
+XW = dead '
+ÇV = dead `
+ÃÉ = dead ^
+ÕÓ = dead ~
+ÉÁ = &
 ÓÚ = À
 ```
 
