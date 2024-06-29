@@ -74,8 +74,8 @@ JÇ  = dead ~
 QuK = dead "
 XW  = dead '
 ÇV  = dead `
-ÉÁ = À
-ÓÚ = _
+ÉÁ  = À
+ÓÚ  = _
 ```
 
 ## Ç Extension
