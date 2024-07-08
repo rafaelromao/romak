@@ -74,6 +74,8 @@ JÇ  = dead ~
 QuK = dead "
 XW  = dead '
 ÇV  = dead `
+ÃÉ  = ?
+ÕÓ  = ! 
 ÉÁ  = À
 ÓÚ  = _
 ```
