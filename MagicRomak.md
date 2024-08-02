@@ -61,7 +61,8 @@ This is how the **Repeat Key** behaves:
 
 | Previous Key | Output  |
 |---|---|
-| H | AH |
+| H | A |
+| A | H |
 | Qu | Ê |
 | Ç | OS Alpha 2 |  
 | ' | V |
