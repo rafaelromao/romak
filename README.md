@@ -55,6 +55,8 @@ A2 = One Shot Alpha 2
 
 ## Combos:
 
+Base layer combos are optional. They are available as a convenient alternative to the secondary alpha layer.
+
 Alpha 1 combos:
 ```
 NS = Q
@@ -66,6 +68,7 @@ RA = Z
 H, = J
 AE = Y
 ```
+Secondary alpha layer combos complement its funcionalities.
 
 Alpha 2 combos:
 ```
