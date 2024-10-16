@@ -42,7 +42,7 @@ Alpha 2 layer:
 
 ```
      Q  Qu K          Ô  Ó  Ú
-  Y  Z  X  W          Ã  É  Á  Í
+  Y  Z  X  W          Ã  Á  É  Í
      J  Ç  V          Õ  Â  Ê
            '  _    _  '
 ```
