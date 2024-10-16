@@ -20,9 +20,9 @@ Alpha 1 layer:
 Alpha 2 layer:
 
 ```
-     Q  Qu K          Ô  Ê  Â
-  Y  Z  X  W          Ã  É  Á  Í
-     J  Ç  ^          Õ  Ó  Ú
+     Q  Qu K          Ô  Ó  Ú
+  Y  Z  X  W          Ã  Á  É  Í
+     J  Ç  ^          Õ  Â  Ê
            _  _    _  '
 ```
 ```
@@ -72,7 +72,10 @@ This is how the **Repeat Key** behaves:
 | H | A |
 | A | H |
 | Y | D |
+| X | Y |
+| J | Á |
 | Qu | Ê |
+| ÁÉÓ | X |
 | Ç | OS Alpha 2 |  
 | ' | V |
 | &#8679; I | ' |
