@@ -92,7 +92,7 @@ There is an extension to the secondary alpha layer, which I call *Ç Extension*.
 ```
      _  _  _          _  _  _
   _  _  _  ÃO         Ã  _  _  _
-     _  _  ÕESS       Õ  _  _
+     _  _  ÕES        Õ  _  _
            _  _    _  _
 ```
 
