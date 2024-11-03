@@ -42,7 +42,6 @@ This is how the **Magic Key** behaves:
 
 | Previous Keys | Output  | 
 |---|---|
-| . | / |
 | Consonants | V |
 | &blank; | H |
 | OS &#8679; | H |
