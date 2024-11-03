@@ -23,7 +23,7 @@ Alpha 2 layer:
      Q  Qu K          Ô  Ó  Ú
   Y  Z  X  W          Ã  Á  É  Í
      J  Ç  ^          Õ  Â  Ê
-           _  _    _  '
+           '  _    _  '
 ```
 ```
 ® = Repeat Key
