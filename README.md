@@ -11,7 +11,7 @@ This is a variation of Romak that can be used by anyone with a 34 keys columnar 
 ```
   Q  B  M  G  K    X  L  O  U  Y
   D  N  S  T  W    Z  R  A  E  I
-  /  F  C  P  V    J  H  ,  .  ;
+  Qu F  C  P  V    J  H  ,  .  ;
 ```
 
 ## Romak 30
