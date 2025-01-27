@@ -68,8 +68,8 @@ This is how the **Repeat Key** behaves:
 
 | Previous Key | Output  |
 |---|---|
-| V | H |
-| H | V |
+| V | ⌫ H |
+| H | ⌫ V |
 | A | H |
 | Y | D |
 | X | Y |
