@@ -4,9 +4,13 @@
 
 Romak is inspired mostly by [BEAKL](https://deskthority.net/wiki/BEAKL) and [Engram](https://engram.dev/), but resembles some modern keyboard layouts, like [Gallium](https://github.com/GalileoBlues/Gallium), [Graphite](https://github.com/rdavison/graphite-layout), [Apt](https://github.com/Apsu/apt), [Sturdy](https://oxey.dev/sturdy/), [Semimak](https://semilin.github.io/blog/2021/semimak.html), [Canary](https://github.com/Apsu/Canary) and [Recurva](https://github.com/GalileoBlues/Recurva), but was not inspired by any of them (I did not know about them when Romak was designed).
 
+## Magic Romak
+
+The most relevant version of the layout is Magic Romak. It contains only 24 keys and uses [Magic Keys](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience. To see more about that, check the [Magic Romak](MagicRomak.md) page.
+
 ## Romak 34
 
-This is a variation of Romak that can be used by anyone with a 34 keys columnar staggered keyboard, in the common format 3x5+2.
+This is the standard version of Romak, that can be used by anyone with a 34 keys columnar staggered keyboard, in the common format 3x5+2.
 
 ```
   Q  B  M  G  K    X  L  O  U  Y
@@ -27,7 +31,7 @@ In this variation, all alphas remain in the base layer, and common symbols like 
 
 ## Romak 24
 
-This is the default Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alphas. Common accented letters, in Portuguese, are also available in this secondary alpha layer.
+This is the smallest version of the Romak layout, designed for the uncommon format 1333+2, in which there are no center columns and only one key per pinky. A secondary alpha layer is necessary to place the missing alphas. Common accented letters, in Portuguese, are also available in this secondary alpha layer.
 
 Alpha 1 layer:
 
@@ -95,10 +99,6 @@ There is an extension to the secondary alpha layer, which I call *Ç Extension*.
      _  _  ÕES        Õ  _  _
            _  _    _  _
 ```
-
-## Magic Romak
-
-There is a version of Romak 24 that uses a [Magic Key](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) to improve the typing experience, reducing SFBs and consecutive activations of the secondary alpha layer. To see more about that check the [Magic Romak](MagicRomak.md) page.
 
 ## Performance Analysis
 
