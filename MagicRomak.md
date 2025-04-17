@@ -77,11 +77,6 @@ This is how the **Repeat Key** behaves:
 | QU | Ê |
 | ÁÉÓ | X |
 | ÍÚ | V |
-| Ê | . |
-| Ô | L |
-| Ã | O |
-| Õ | E |
-| Ç | OS Alpha 2 |  
 | ' | V |
 | &#8679; I | ' |
 | Anything Else | Repeat |
