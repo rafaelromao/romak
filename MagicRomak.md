@@ -72,8 +72,11 @@ This is how the **Repeat Key** behaves:
 | H | ⌫ V |
 | A | H |
 | Y | D |
-| X | Y |
+| X | Í |
 | J | Á |
+| Á Ó É Ê | X |
+| Í | E |
+| QU | Ê |
 | ' | V |
 | &#8679; I | ' |
 | Anything Else | Repeat |
