@@ -36,26 +36,26 @@ Sf = One Shot Shift
 
 ### Magic Key
 
-The Magic Key will produce H after consonants and V after vowels.
+The Magic Key will produce H by default and V after vowels.
 
 This is how the **Magic Key** behaves:
 
 | Previous Keys | Output  | 
 |---|---|
-| Consonants | V |
+| Vowels | V |
 | &blank; | H |
 | OS &#8679; | H |
 | Anything Else | H |
 
 ### Reversed Magic Key
 
-The Reversed Magic Key does the opposite as the Magic Key, producing V after consonants and H after vowels..
+The Reversed Magic Key does the opposite of the Magic Key, producing V by default and H after vowels..
 
 This is how the **Reversed Magic Key** behaves:
 
 | Previous Keys | Output  | 
 |---|---|
-| Consonants | H |
+| Vowels | H |
 | &blank; | V |
 | OS &#8679; | V |
 | Anything Else | V |
