@@ -68,13 +68,11 @@ This is how the **Repeat Key** behaves:
 
 | Previous Key | Output  |
 |---|---|
-| V | OS Alpha 2 |
+| V X J Ç| OS Alpha 2 |
+| Á Ó É Ê | X |
 | H | ÕES |
 | A | H |
 | Y | D |
-| X | Í |
-| J | Á |
-| Á Ó É Ê | X |
 | Í | E |
 | QU | Ê |
 | ' | V |
