@@ -433,19 +433,19 @@
             "numpad": -1
         },
         {
-            "primary": 126,
+            "primary": 63,
             "finger": 8,
             "id": 46,
-            "shift": 94,
-            "altGr": 96,
+            "shift": -1,
+            "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
         },
         {
-            "primary": 39,
+            "primary": 33,
             "finger": 9,
             "id": 47,
-            "shift": 34,
+            "shift": -1,
             "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1

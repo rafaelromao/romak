@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
+  <link rel="stylesheet" href="styles.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+<body class="sidebar-collapsed">
+  <div id="banner">
+    <div class="banner-content">
+    </div>
+  </div>
+
+  <div id="star-buttons">
+    <div id="star-button-light">
+      <a class="github-button" href="https://github.com/rafaelromao/romak"
+        data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large"
+        data-show-count="true" aria-label="Star on GitHub">Star</a>
+    </div>
+    <div id="star-button-dark">
+      <a class="github-button" href="https://github.com/rafaelromao/romak"
+        data-color-scheme="no-preference: dark_dimmed; light: dark_dimmed; dark: dark_dimmed;" data-icon="octicon-star"
+        data-size="large" data-show-count="true" aria-label="Star on GitHub">Star</a>
+    </div>
+  </div>
+
+  <button id="sidebar-toggle">&#9776;</button>
+  <button id="home-button">&#8962;</button>
+
+  <div id="main-layout">
+    <aside id="sidebar">
+      <button id="theme-toggle">
+        <img id="theme-icon-light" src="img/sun.svg" alt="Light Mode" style="display: none;">
+        <img id="theme-icon-dark" src="img/moon.svg" alt="Dark Mode" style="display: none;">
+        <span>Toggle Theme</span>
+      </button>
+      <div id="table-of-contents"></div>
+    </aside>
+    <main id="main-content">
+      <div id="content"></div>
+    </main>
+  </div>
+</body>
+</html>

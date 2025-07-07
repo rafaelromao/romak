@@ -363,11 +363,11 @@
             "numpad": -1
         },
         {
-            "primary": 126,
+            "primary": 63,
             "finger": 2,
             "id": 38,
-            "shift": 94,
-            "altGr": 96,
+            "shift": -1,
+            "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
         },
@@ -390,10 +390,10 @@
             "numpad": -1
         },
         {
-            "primary": 39,
+            "primary": 33,
             "finger": 4,
             "id": 41,
-            "shift": 34,
+            "shift": -1,
             "altGr": -1,
             "shiftAltGr": -1,
             "numpad": -1
