@@ -184,13 +184,28 @@ Normalmente, a Tecla de Repetição simplesmente repetirá o último caractere, 
 
 ## Análise de Desempenho
 
+### Keysolve
+
+O [analisador Keysolve](https://galileoblues.github.io/keysolve-web/) foi usado para comparar o Romak com o Colemak-DH.
+- Apenas corpus de texto em inglês.
+- Considerando a versão de 34 teclas do Romak.
+
+<p float="left">
+  <img src="img/keysolve-romak.png"/>
+  <img src="img/keysolve-romak2.png"/>
+</p>
+<p float="right">
+  <img src="img/keysolve-coldh.png"/>
+  <img src="img/keysolve-coldh2.png"/>
+</p>
+
 ### KLA Next
 
-O [KLA Next](https://klanext.keyboard-design.com/) foi usado para comparar o Romak com alguns outros layouts modernos, usando um corpus de texto de 1MB (para cada idioma) gerado pelo ChatGPT 4 usando as 180 palavras mais comuns em e-mails de trabalho e mensagens de chat de trabalho, tanto para português quanto para inglês.
+O [KLA Next](https://klanext.keyboard-design.com/) também foi usado para comparar o Romak com alguns outros layouts modernos, usando um corpus de texto de 1MB (para cada idioma) gerado pelo ChatGPT 4 usando as 180 palavras mais comuns em e-mails de trabalho e mensagens de chat de trabalho, tanto para português quanto para inglês.
 
 #### Resultados
 
-Alguns ajustes foram necessários para focar a comparação apenas nas alfas, mas incluindo teclas mortas para letras acentuadas:
+Alguns ajustes foram necessários para focar a comparação apenas nas alfas:
 - Acentos e apóstrofo foram removidos de todos os layouts, e `!` e `?` foram incluídos para preencher os 2 pontos disponíveis.
 - O espaço é colocado no lado oposto das vogais, para todos os layouts, para melhorar o equilíbrio das mãos.
 - Além da pontuação básica, todos os outros símbolos e números foram excluídos da análise, para todos os layouts.
@@ -214,32 +229,6 @@ Usando os mapas de calor, podemos ver que o esforço dos dedos é melhor distrib
 
 <p float="left">
   <img src="img/heatmaps.png" />
-</p>
-
-### Ferramenta de análise Colemak mod-DH
-
-A [ferramenta de análise Colemak mod-DH](https://colemakmods.github.io/mod-dh/analyze.html) também foi usada para comparar o Romak com o Colemak-DH.
-- Apenas corpus de texto em inglês.
-- Considere a versão de 34 teclas do Romak.
-
-<p float="left">
-  <img src="img/sfbs_en_romak.png" width="450" />
-  <img src="img/sfbs_en_coldh.png" width="450" />
-</p>
-
-### Keysolve
-
-O [analisador Keysolve](https://galileoblues.github.io/keysolve-web/) também foi usado para comparar o Romak com o Colemak-DH.
-- Apenas corpus de texto em inglês.
-- Considere a versão de 34 teclas do Romak.
-
-<p float="left">
-  <img src="img/keysolve-romak.png"/>
-  <img src="img/keysolve-romak2.png"/>
-</p>
-<p float="right">
-  <img src="img/keysolve-coldh.png"/>
-  <img src="img/keysolve-coldh2.png"/>
 </p>
 
 ## Implementação
