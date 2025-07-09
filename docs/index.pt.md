@@ -1,4 +1,4 @@
-# O Layout de Teclado Romak
+# Romak
 
 **Romak** é um layout de teclado criado para usuários de português e inglês, com o objetivo de aprimorar a alternância das mãos, minimizar o movimento dos dedos, reduzir bigramas de um único dedo e diminuir a dependência do dedo mínimo e das colunas centrais.
 
@@ -6,13 +6,13 @@ Romak é inspirado principalmente no [BEAKL](https://deskthority.net/wiki/BEAKL)
 
 ## Variantes do Romak
 
-A variante mais relevante é o Magic Romak. Ele contém apenas 24 teclas e usa [Magic Keys](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) para melhorar a experiência de digitação. Mas antes, vamos falar sobre as variantes regulares do Romak.
+A variante mais relevante é o Magic Romak. Ele contém apenas 24 teclas e usa [Teclas Mágicas](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) para melhorar a experiência de digitação. Mas antes, vamos falar sobre as variantes regulares do Romak.
 
 ### Romak 34
 
-Esta é a variante padrão do Romak, que pode ser usada por qualquer pessoa com um teclado colunar escalonado de 34 teclas, no formato comum 3x5+2. Uma camada alfa secundária pode ser usada para digitar vogais acentuadas.
+Esta é a variante padrão do Romak, que pode ser usada por qualquer pessoa com um teclado de colunas paralelas de 34 teclas, no formato comum 3x5+2. Uma camada de letras secundária pode ser usada para digitar vogais acentuadas. Essa camada de letras secundária é uma camada aderente, ou seja, ela se mantém atíva até que a próxima tecla seja apertada, ou até que o tempo limite se esgote.
 
-Camada Alfa 1:
+Camada de Letras 1:
 
 ```
   q  b  m  g  k    x  l  o  u  ;
@@ -21,7 +21,7 @@ Camada Alfa 1:
            ® ␣      ² ⇧
 ```
 
-Camada Alfa 2:
+Camada de Letras 2:
 
 ```
         qu            ô  ó  ú
@@ -32,15 +32,15 @@ Camada Alfa 2:
 ```
 ® = Repetir Última Tecla
 ␣ = Espaço
-⇧ = One Shot Shift
-² = One Shot Alfa 2
+⇧ = Shift Aderente
+² = Camada de Letras 2 Aderente
 ```
 
-#### Extensão Ç
+#### Extensão do Ç
 
-Existe uma extensão para a camada alfa secundária, que eu chamo de *Extensão Ç*. Ela ativa uma camada one-shot logo após `ç` ser digitado, para permitir acesso fácil a `ã`, `õ` e macros para `ão` e `ões`.
+Existe uma extensão para a camada de letras secundária, que eu chamo de *Extensão do Ç*. Ela ativa uma camada aderente após `ç` ser digitado, para permitir acesso fácil a `ã`, `õ` e macros para `ão` e `ões`.
 
-Camada da Extensão Ç:
+Camada da Extensão do Ç:
 
 ```
      _  _  _          _  _  _
@@ -53,7 +53,7 @@ Camada da Extensão Ç:
 
 Esta é a menor variante do layout Romak, projetada para o formato incomum 1333+2, no qual não há colunas centrais e apenas uma tecla por dedo mínimo.
 
-Camada Alfa 1:
+Camada de Letras 1:
 
 ```
      b  m  g          l  o  u   
@@ -62,7 +62,7 @@ Camada Alfa 1:
            ® ␣      ² ⇧
 ```
 
-Camada Alfa 2:
+Camada de Letras 2:
 
 ```
      q  qu k          ô  ó  ú
@@ -73,15 +73,15 @@ Camada Alfa 2:
 ```
 ® = Repetir Última Tecla
 ␣ = Espaço
-⇧ = One Shot Shift
-² = One Shot Alfa 2
+⇧ = Shift Aderente
+² = Camada de Letras 2 Aderente
 ```
 
 #### Combos:
 
-Os combos da camada base são opcionais. Eles estão disponíveis como uma alternativa conveniente à camada alfa secundária.
+Os combos da camada base são opcionais. Eles estão disponíveis como uma alternativa conveniente à camada de alfas secundária.
 
-Combos da Camada Alfa 1:
+Combos da Camada de Letras 1:
 ```
 ns = q
 mg = k
@@ -92,9 +92,9 @@ ra = z
 h, = j
 ae = y
 ```
-Os combos da camada alfa secundária complementam suas funcionalidades.
+Os combos da camada de alfas secundária complementam suas funcionalidades.
 
-Combos da Camada Alfa 2:
+Combos da Camada Alfas 2:
 ```
 zx  = dead ^
 jç  = dead ~
@@ -109,9 +109,9 @@ xw  = dead '
 
 ### Magic Romak
 
-Esta é uma variante do Romak 24 que usa [Magic Keys](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) para melhorar a experiência de digitação.
+Esta é uma variante do Romak 24 que usa [Teclas Mágicas](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md) para melhorar a experiência de digitação.
 
-Camada Alfa 1:
+Camada de Letras 1:
 
 ```
      b  m  g          l  o  u   
@@ -120,7 +120,7 @@ Camada Alfa 1:
            ® ␣      ² ⇧
 ```
 
-Camada Alfa 2:
+Camada de Letras 2:
 
 ```
      q  qu k          ô  ó  ú
@@ -131,8 +131,8 @@ Camada Alfa 2:
 ```
 ® = Repetir Última Tecla
 ␣ = Espaço
-⇧ = One Shot Shift
-² = One Shot Alfa 2
+⇧ = Shift Aderente
+² = Camada de Letras 2 Aderente
 * = Tecla Mágica
 ^ = Tecla Mágica Invertida
 ```
@@ -171,7 +171,7 @@ Normalmente, a Tecla de Repetição simplesmente repetirá o último caractere, 
 
 | Tecla Anterior | Saída  |
 |---|---|
-| v x j| OS Alfa 2 |
+| v x j| Camada de Letras 2 Aderente |
 | á ó é ê | x |
 | h | ões |
 | a | h |
@@ -225,7 +225,7 @@ Ao comparar usando apenas português:
 
 Os mapas de calor abaixo também consideram tanto português quanto inglês no corpus de texto.
 
-Usando os mapas de calor, podemos ver que o esforço dos dedos é melhor distribuído no Romak, Gallium e Graphite, dando mais trabalho aos dedos mais fortes, enquanto o Colemak-DH penaliza os dedos mínimos em favor de um maior uso da linha inicial, que é um dos fatores que o coloca entre os melhores nos resultados. Essa estratégia é questionável, no entanto, e uma das razões pelas quais layouts como Romak, Gallium e Graphite foram criados.
+Usando os mapas de calor, podemos ver que o esforço dos dedos é melhor distribuído no Romak, Gallium e Graphite, dando mais trabalho aos dedos mais fortes, enquanto o Colemak-DH penaliza os dedos mindinho em favor de um maior uso da linha inicial, que é um dos fatores que o coloca entre os melhores nos resultados. Essa estratégia é questionável, no entanto, e uma das razões pelas quais layouts como Romak, Gallium e Graphite foram criados.
 
 <p float="left">
   <img src="img/heatmaps.png" />

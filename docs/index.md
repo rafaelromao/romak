@@ -1,4 +1,4 @@
-# The Romak Keyboard Layout
+# Romak
 
 **Romak** is a keyboard layout built for Portuguese and English users, with a goal to enhance hand alternation, minimize finger movement, reduce single-finger bigrams, and decrease reliance on the pinky and central columns.
 
@@ -10,7 +10,7 @@ The most relevant variant is Magic Romak. It contains only 24 keys and uses [Mag
 
 ### Romak 34
 
-This is the standard variant of Romak, that can be used by anyone with a 34 keys columnar staggered keyboard, in the common format 3x5+2. A secondary alpha layer can be used to type accented vowels.
+This is the standard variant of Romak, that can be used by anyone with a 34 keys columnar staggered keyboard, in the common format 3x5+2. A secondary alpha layer can be used to type accented vowels. This secondary alpha layer is a sticky layer, it means, it will be kept active until the next key is tapped, or until the timeout expires.
 
 Alpha 1 layer:
 
