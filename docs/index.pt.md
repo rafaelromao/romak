@@ -199,6 +199,17 @@ O [analisador Keysolve](https://galileoblues.github.io/keysolve-web/) foi usado 
   <img src="img/keysolve-coldh2.png"/>
 </p>
 
+### Cyanophage
+
+Analise similar no [analisador Cyanophage](https://cyanophage.github.io/playground.html?layout=qbmgkxlou%2F%5Cdnstwzraei-yfcpvjh%2C.%3B%27%5E&mode=ergo&lan=english&thumb=r):
+
+<p float="left">
+  <img src="img/cyanophage-romak.png"/>
+</p>
+<p float="right">
+  <img src="img/cyanophage-coldh.png"/>
+</p>
+
 ### KLA Next
 
 O [KLA Next](https://klanext.keyboard-design.com/) também foi usado para comparar o Romak com alguns outros layouts modernos, usando um corpus de texto de 1MB (para cada idioma) gerado pelo ChatGPT 4 usando as 180 palavras mais comuns em e-mails de trabalho e mensagens de chat de trabalho, tanto para português quanto para inglês.
