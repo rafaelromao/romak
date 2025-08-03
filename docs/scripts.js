@@ -23,8 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
         let currentH1 = null;
         let currentH2 = null;
 
-        headers.forEach((header, index) => {
-          const id = header.id || `section-${index}`;
+        const slugify = (text) =>
+          text
+            .toLowerCase()
+            .trim()
+            .replace(/[\s_]+/g, '-')
+            .replace(/[^\w\-]+/g, '');
+
+        headers.forEach((header) => {
+          const id = slugify(header.textContent);
           header.id = id;
 
           const link = `<a href="#${id}">${header.textContent}</a>`;
@@ -60,30 +67,40 @@ document.addEventListener('DOMContentLoaded', () => {
         tocHtml += '</ul>';
         tocDiv.innerHTML = tocHtml;
 
+        const scrollToTarget = (targetId, smooth = true) => {
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            const headerOffset = document.getElementById('banner').offsetHeight;
+            const elementPosition = targetElement.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: smooth ? 'smooth' : 'auto'
+            });
+          }
+        }
+
         // Smooth scrolling
         document.querySelectorAll('#table-of-contents a').forEach(anchor => {
           anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-            const headerOffset = document.getElementById('banner').offsetHeight;
-            const elementPosition = targetElement.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-            window.scrollTo({
-              top: offsetPosition,
-              behavior: 'smooth'
-            });
+            history.pushState(null, null, targetId);
+            scrollToTarget(targetId);
 
             // Collapse sidebar after clicking a link
             sidebar.classList.add('collapsed');
             body.classList.add('sidebar-collapsed');
           });
         });
+
+        // Scroll to section if URL has hash
+        if (window.location.hash) {
+          setTimeout(() => scrollToTarget(window.location.hash, false), 100);
+        }
       });
   };
 
-  // Language toggle logic
   const languageToggle = document.getElementById('language-toggle');
   const langEn = document.getElementById('lang-en');
   const langPt = document.getElementById('lang-pt');
@@ -97,20 +114,28 @@ document.addEventListener('DOMContentLoaded', () => {
       langPt.classList.remove('active');
       langEn.classList.add('active');
     }
+    const url = new URL(window.location);
+    url.searchParams.set('lang', lang);
+    history.pushState({}, '', url);
     fetchAndRender(lang);
   };
 
   const toggleLanguage = () => {
-    const currentLang = localStorage.getItem('language') || 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentLang = urlParams.get('lang') || localStorage.getItem('language') || 'en';
     const newLang = currentLang === 'en' ? 'pt' : 'en';
     setLanguage(newLang);
   };
 
   // Set initial language based on localStorage or browser settings
+  const urlParams = new URLSearchParams(window.location.search);
+  const urlLang = urlParams.get('lang');
   const savedLang = localStorage.getItem('language');
   const browserLang = navigator.language.split('-')[0];
 
-  if (savedLang) {
+  if (urlLang) {
+    setLanguage(urlLang);
+  } else if (savedLang) {
     setLanguage(savedLang);
   } else if (browserLang === 'pt') {
     setLanguage('pt');
