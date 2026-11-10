@@ -31,9 +31,9 @@ Camada de Letras 2:
 ```
 ```
 ® = Repetir Última Tecla
-␣ = Espaço
+␣ = Espaço, ou Números quando segurada
 ⇧ = Shift Aderente
-² = Camada de Letras 2 Aderente
+² = Camada de Letras 2 Aderente, ou Símbolos quando segurada
 ```
 
 #### Extensão do Ç
@@ -47,6 +47,43 @@ Camada da Extensão do Ç:
   _  _  _  ão         ã  _  _  _
      _  _  ões        õ  _  _
            _  _    _  _
+```
+
+#### Números e Símbolos
+
+As camadas de Números e Símbolos são as mesmas que o Magic Romak usa. Segurar o espaço ativa a camada de Números, e segurar a tecla da Camada de Letras 2 Aderente ativa a camada de Símbolos. Quando apenas apertadas, as duas teclas continuam digitando espaço e ativando a Camada de Letras 2. As colunas centrais e as teclas de cima e de baixo dos dedos mínimos ficam vazias nas duas camadas.
+
+Camada de Números:
+
+```
+     \  {  }          7  8  9
+  ,  &  (  )          4  5  6  .
+     |  [  ]          1  2  3
+              ▼    ␣  0
+```
+
+Camada de Símbolos:
+
+```
+     ~  #  '          %  =  :
+  @  ^  $  "          ?  -  +  _
+     <  >  `          !  /  *
+              ␣    ▼
+```
+```
+▼ = Tecla segurada que ativa a camada
+␣ = Espaço, ou a outra camada quando segurada
+```
+
+Combos da camada de Números:
+```
+456 = º (ª quando segurado)
+123 = °
+```
+
+Combos da camada de Símbolos:
+```
+%=: = €
 ```
 
 ### Romak 24

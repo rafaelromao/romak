@@ -31,9 +31,9 @@ Alpha 2 layer:
 ```
 ```
 ® = Repeat Last Key
-␣ = Space
+␣ = Space, or Numbers when held
 ⇧ = One Shot Shift
-² = One Shot Alpha 2
+² = One Shot Alpha 2, or Symbols when held
 ```
 
 #### Ç Extension
@@ -47,6 +47,43 @@ There is an extension to the secondary alpha layer, which I call *Ç Extension*.
   _  _  _  ão         ã  _  _  _
      _  _  ões        õ  _  _
            _  _    _  _
+```
+
+#### Numbers and Symbols
+
+Numbers and Symbols are the same layers Magic Romak uses. Holding space activates the Numbers layer, and holding the One Shot Alpha 2 key activates the Symbols layer. Tapped, both keys still type space and activate Alpha 2. The center columns and the top and bottom pinky keys are left empty on both layers.
+
+Numbers layer:
+
+```
+     \  {  }          7  8  9
+  ,  &  (  )          4  5  6  .
+     |  [  ]          1  2  3
+              ▼    ␣  0
+```
+
+Symbols layer:
+
+```
+     ~  #  '          %  =  :
+  @  ^  $  "          ?  -  +  _
+     <  >  `          !  /  *
+              ␣    ▼
+```
+```
+▼ = Held key that activates the layer
+␣ = Space, or the other layer when held
+```
+
+Numbers combos:
+```
+456 = º (ª when held)
+123 = °
+```
+
+Symbols combos:
+```
+%=: = €
 ```
 
 ### Romak 24
